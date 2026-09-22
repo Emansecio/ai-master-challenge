@@ -56,9 +56,9 @@ git diff --cached --name-only
 
 Todos os caminhos exibidos devem começar com `submissions/thiago-emanuel-veloso-santos/`. Se o pacote for alterado depois desta preparação, a lista e a conferência dos arquivos precisam ser atualizadas antes da inclusão. Não use inclusão forçada recursiva de toda a pasta após executar a aplicação, pois isso também pode incluir arquivos privados ignorados.
 
-Fork, criação de branch de submissão, commit, push e Pull Request ainda não foram realizados. O título previsto é `[Submission] Thiago Emanuel Veloso Santos — Challenge 003`.
+Submissão enviada em 22/09/2026. O [fork](https://github.com/Emansecio/ai-master-challenge) contém a branch `submission/thiago-emanuel-veloso-santos`, enviada ao repositório oficial pelo [Pull Request 146](https://github.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/pull/146), com o título `[Submission] Thiago Emanuel Veloso Santos — Challenge 003`.
 
-### Texto previsto para o Pull Request
+### Texto do Pull Request
 
 Submissão de Thiago Emanuel Veloso Santos para o Challenge 003, Lead Scorer.
 

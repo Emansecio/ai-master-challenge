@@ -61,4 +61,4 @@ Propus usar o Jev como classificador e pedi a comparação com o Router. Questio
 
 A [narrativa do processo](solution/analise/PROCESSO.md), o [ensaio do Jev](solution/analise/RESULTADO-JEV-VERCEL.md), a [comparação com o Router](solution/analise/RESULTADO-ROUTER-LOCAL.md) e os [testes da aplicação](solution/app/evidence/post-review-fixes/RELATORIO.md) acompanham o código. O índice em [process-log](process-log/README.md) orienta a leitura.
 
-Pacote preparado em 22/09/2026. Submissão por Pull Request ainda não realizada.
+Submissão enviada em 22/09/2026 pelo [Pull Request 146](https://github.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/pull/146).

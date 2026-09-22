@@ -43,7 +43,7 @@ No ensaio com 120 oportunidades, Jev e as regras locais concordaram com a refer�
 | Perfis de acesso | Demonstração local com administrador, gestor e vendedor; permissões conferidas no servidor. |
 | Validação comercial | Pendente. A revisão técnica dos casos não substitui a avaliação de vendedores. |
 | Uso corporativo | Requer definição de carga, autenticação corporativa, disponibilidade e recuperação. |
-| Publicação e submissão | Ainda não realizadas. |
+| Publicação e submissão | Código submetido pelo [PR 146](https://github.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/pull/146). A aplicação continua com execução local. |
 
 ## Por onde começar
 

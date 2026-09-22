@@ -166,7 +166,7 @@ O banco é único. Alta disponibilidade, conexões protegidas entre máquinas, o
 
 O detector de corridas do Go não foi executado neste Windows, que está sem CGO e compilador C. Os testes concorrentes de banco foram executados. As verificações de contraste e foco são parciais e não constituem certificação de acessibilidade.
 
-Não houve publicação da aplicação, submissão do desafio ou validação com vendedores. A revisão humana continua necessária para medir utilidade comercial, compreensão das orientações e eventuais decisões inadequadas.
+A submissão do desafio está no [PR 146](https://github.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/pull/146). A aplicação continua com execução local e ainda não foi validada com vendedores. A revisão humana continua necessária para medir utilidade comercial, compreensão das orientações e eventuais decisões inadequadas.
 
 ## Organização dos arquivos
 

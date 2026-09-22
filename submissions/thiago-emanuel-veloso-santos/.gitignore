@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.local/
+node_modules/
+__pycache__/
+*.pyc
+*.exe
+*.dump
+*.bak
+router-assets/
+router-publico/

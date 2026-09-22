@@ -1,0 +1,17 @@
+{
+  "static_assets_match_running_server": true,
+  "local_document_links_verified": 34,
+  "business_cases_verified": 10,
+  "ui_checks": 14,
+  "typescript_build": "passed",
+  "go_tests": "passed; PostgreSQL integration not enabled in this turn",
+  "go_vet": "passed",
+  "new_model_calls": 0,
+  "opportunity_edits": 0,
+  "artifacts_sha256": {
+    "app/frontend/app.ts": "56b964292a002015f8e4a7ee86accd30a50a4e34e55f45128d86c9f29c751318",
+    "app/static/app.js": "2eedd9c17830182b7462a92a2790b4d91ff14b2d9c10ee56d07de1d00c573d4e",
+    "app/evidence/business-review.json": "9c89c4476a756c51f5a495dd1d9e78b61b1577ba00717c02f31def25a3742bca",
+    "app/evidence/business-ui.json": "c16e1b24282e71f99e2c8f1b667685390bb19712dc4feca2d91237c2a780238c"
+  }
+}

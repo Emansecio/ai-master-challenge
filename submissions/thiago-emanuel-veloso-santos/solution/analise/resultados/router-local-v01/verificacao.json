@@ -1,0 +1,450 @@
+{
+  "verified": true,
+  "all": {
+    "n": 120,
+    "both_correct": 48,
+    "question_correct": {
+      "qualification": 60,
+      "next_action": 49
+    },
+    "confusions": {
+      "qualification": [
+        {
+          "expected": "discovery_required",
+          "predicted": "discovery_required",
+          "n": 20
+        },
+        {
+          "expected": "incomplete_profile",
+          "predicted": "discovery_required",
+          "n": 20
+        },
+        {
+          "expected": "incomplete_profile",
+          "predicted": "negotiation_reviewable",
+          "n": 40
+        },
+        {
+          "expected": "negotiation_reviewable",
+          "predicted": "negotiation_reviewable",
+          "n": 40
+        }
+      ],
+      "next_action": [
+        {
+          "expected": "continue_negotiation_review",
+          "predicted": "continue_negotiation_review",
+          "n": 12
+        },
+        {
+          "expected": "continue_negotiation_review",
+          "predicted": "review_old_negotiation",
+          "n": 8
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "continue_negotiation_review",
+          "n": 35
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "identify_account",
+          "n": 1
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "qualify_prospect",
+          "n": 20
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "review_old_negotiation",
+          "n": 4
+        },
+        {
+          "expected": "qualify_prospect",
+          "predicted": "qualify_prospect",
+          "n": 20
+        },
+        {
+          "expected": "review_old_negotiation",
+          "predicted": "continue_negotiation_review",
+          "n": 4
+        },
+        {
+          "expected": "review_old_negotiation",
+          "predicted": "review_old_negotiation",
+          "n": 16
+        }
+      ]
+    },
+    "latency_ms": {
+      "p50_nearest_rank": 90.9496999999999,
+      "p95_nearest_rank": 225.4951000000001
+    }
+  },
+  "development": {
+    "n": 60,
+    "both_correct": 25,
+    "question_correct": {
+      "qualification": 30,
+      "next_action": 25
+    },
+    "confusions": {
+      "qualification": [
+        {
+          "expected": "discovery_required",
+          "predicted": "discovery_required",
+          "n": 10
+        },
+        {
+          "expected": "incomplete_profile",
+          "predicted": "discovery_required",
+          "n": 10
+        },
+        {
+          "expected": "incomplete_profile",
+          "predicted": "negotiation_reviewable",
+          "n": 20
+        },
+        {
+          "expected": "negotiation_reviewable",
+          "predicted": "negotiation_reviewable",
+          "n": 20
+        }
+      ],
+      "next_action": [
+        {
+          "expected": "continue_negotiation_review",
+          "predicted": "continue_negotiation_review",
+          "n": 7
+        },
+        {
+          "expected": "continue_negotiation_review",
+          "predicted": "review_old_negotiation",
+          "n": 3
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "continue_negotiation_review",
+          "n": 20
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "qualify_prospect",
+          "n": 10
+        },
+        {
+          "expected": "qualify_prospect",
+          "predicted": "qualify_prospect",
+          "n": 10
+        },
+        {
+          "expected": "review_old_negotiation",
+          "predicted": "continue_negotiation_review",
+          "n": 2
+        },
+        {
+          "expected": "review_old_negotiation",
+          "predicted": "review_old_negotiation",
+          "n": 8
+        }
+      ]
+    },
+    "latency_ms": {
+      "p50_nearest_rank": 90.20780000000013,
+      "p95_nearest_rank": 96.0616
+    }
+  },
+  "evaluation": {
+    "n": 60,
+    "both_correct": 23,
+    "question_correct": {
+      "qualification": 30,
+      "next_action": 24
+    },
+    "confusions": {
+      "qualification": [
+        {
+          "expected": "discovery_required",
+          "predicted": "discovery_required",
+          "n": 10
+        },
+        {
+          "expected": "incomplete_profile",
+          "predicted": "discovery_required",
+          "n": 10
+        },
+        {
+          "expected": "incomplete_profile",
+          "predicted": "negotiation_reviewable",
+          "n": 20
+        },
+        {
+          "expected": "negotiation_reviewable",
+          "predicted": "negotiation_reviewable",
+          "n": 20
+        }
+      ],
+      "next_action": [
+        {
+          "expected": "continue_negotiation_review",
+          "predicted": "continue_negotiation_review",
+          "n": 5
+        },
+        {
+          "expected": "continue_negotiation_review",
+          "predicted": "review_old_negotiation",
+          "n": 5
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "continue_negotiation_review",
+          "n": 15
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "identify_account",
+          "n": 1
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "qualify_prospect",
+          "n": 10
+        },
+        {
+          "expected": "identify_account",
+          "predicted": "review_old_negotiation",
+          "n": 4
+        },
+        {
+          "expected": "qualify_prospect",
+          "predicted": "qualify_prospect",
+          "n": 10
+        },
+        {
+          "expected": "review_old_negotiation",
+          "predicted": "continue_negotiation_review",
+          "n": 2
+        },
+        {
+          "expected": "review_old_negotiation",
+          "predicted": "review_old_negotiation",
+          "n": 8
+        }
+      ]
+    },
+    "latency_ms": {
+      "p50_nearest_rank": 220.4411,
+      "p95_nearest_rank": 226.1900000000005
+    }
+  },
+  "evaluation_strata": [
+    {
+      "stage": "Engaging",
+      "account_identified": false,
+      "age_above_reference": false,
+      "n": 10,
+      "both_correct": 0,
+      "question_correct": {
+        "qualification": 0,
+        "next_action": 1
+      },
+      "confusions": {
+        "qualification": [
+          {
+            "expected": "incomplete_profile",
+            "predicted": "negotiation_reviewable",
+            "n": 10
+          }
+        ],
+        "next_action": [
+          {
+            "expected": "identify_account",
+            "predicted": "continue_negotiation_review",
+            "n": 9
+          },
+          {
+            "expected": "identify_account",
+            "predicted": "identify_account",
+            "n": 1
+          }
+        ]
+      },
+      "latency_ms": {
+        "p50_nearest_rank": 81.95139999999992,
+        "p95_nearest_rank": 86.47360000000003
+      }
+    },
+    {
+      "stage": "Engaging",
+      "account_identified": false,
+      "age_above_reference": true,
+      "n": 10,
+      "both_correct": 0,
+      "question_correct": {
+        "qualification": 0,
+        "next_action": 0
+      },
+      "confusions": {
+        "qualification": [
+          {
+            "expected": "incomplete_profile",
+            "predicted": "negotiation_reviewable",
+            "n": 10
+          }
+        ],
+        "next_action": [
+          {
+            "expected": "identify_account",
+            "predicted": "continue_negotiation_review",
+            "n": 6
+          },
+          {
+            "expected": "identify_account",
+            "predicted": "review_old_negotiation",
+            "n": 4
+          }
+        ]
+      },
+      "latency_ms": {
+        "p50_nearest_rank": 82.03020000000015,
+        "p95_nearest_rank": 83.23559999999998
+      }
+    },
+    {
+      "stage": "Engaging",
+      "account_identified": true,
+      "age_above_reference": false,
+      "n": 10,
+      "both_correct": 5,
+      "question_correct": {
+        "qualification": 10,
+        "next_action": 5
+      },
+      "confusions": {
+        "qualification": [
+          {
+            "expected": "negotiation_reviewable",
+            "predicted": "negotiation_reviewable",
+            "n": 10
+          }
+        ],
+        "next_action": [
+          {
+            "expected": "continue_negotiation_review",
+            "predicted": "continue_negotiation_review",
+            "n": 5
+          },
+          {
+            "expected": "continue_negotiation_review",
+            "predicted": "review_old_negotiation",
+            "n": 5
+          }
+        ]
+      },
+      "latency_ms": {
+        "p50_nearest_rank": 82.58320000000003,
+        "p95_nearest_rank": 221.85410000000002
+      }
+    },
+    {
+      "stage": "Engaging",
+      "account_identified": true,
+      "age_above_reference": true,
+      "n": 10,
+      "both_correct": 8,
+      "question_correct": {
+        "qualification": 10,
+        "next_action": 8
+      },
+      "confusions": {
+        "qualification": [
+          {
+            "expected": "negotiation_reviewable",
+            "predicted": "negotiation_reviewable",
+            "n": 10
+          }
+        ],
+        "next_action": [
+          {
+            "expected": "review_old_negotiation",
+            "predicted": "continue_negotiation_review",
+            "n": 2
+          },
+          {
+            "expected": "review_old_negotiation",
+            "predicted": "review_old_negotiation",
+            "n": 8
+          }
+        ]
+      },
+      "latency_ms": {
+        "p50_nearest_rank": 221.4296000000004,
+        "p95_nearest_rank": 226.1900000000005
+      }
+    },
+    {
+      "stage": "Prospecting",
+      "account_identified": false,
+      "age_above_reference": false,
+      "n": 10,
+      "both_correct": 0,
+      "question_correct": {
+        "qualification": 0,
+        "next_action": 0
+      },
+      "confusions": {
+        "qualification": [
+          {
+            "expected": "incomplete_profile",
+            "predicted": "discovery_required",
+            "n": 10
+          }
+        ],
+        "next_action": [
+          {
+            "expected": "identify_account",
+            "predicted": "qualify_prospect",
+            "n": 10
+          }
+        ]
+      },
+      "latency_ms": {
+        "p50_nearest_rank": 224.58929999999964,
+        "p95_nearest_rank": 229.28489999999965
+      }
+    },
+    {
+      "stage": "Prospecting",
+      "account_identified": true,
+      "age_above_reference": false,
+      "n": 10,
+      "both_correct": 10,
+      "question_correct": {
+        "qualification": 10,
+        "next_action": 10
+      },
+      "confusions": {
+        "qualification": [
+          {
+            "expected": "discovery_required",
+            "predicted": "discovery_required",
+            "n": 10
+          }
+        ],
+        "next_action": [
+          {
+            "expected": "qualify_prospect",
+            "predicted": "qualify_prospect",
+            "n": 10
+          }
+        ]
+      },
+      "latency_ms": {
+        "p50_nearest_rank": 222.52280000000064,
+        "p95_nearest_rank": 225.3780999999999
+      }
+    }
+  ]
+}

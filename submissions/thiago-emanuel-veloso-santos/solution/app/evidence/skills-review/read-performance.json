@@ -1,0 +1,44 @@
+{
+  "workload": "local bounded closed-loop GET waves, warmed by six reference requests",
+  "paths": [
+    "/api/opportunities",
+    "/api/opportunities?page=105",
+    "/api/opportunities?action=identify_account&page=2",
+    "/api/opportunities?search=SEMRESULTADO-REVISAO",
+    "/api/opportunities?sales_agent=Maureen%20Marcano",
+    "/api/meta"
+  ],
+  "waves": [
+    {
+      "clients": 1,
+      "requests": 30,
+      "errors": 0,
+      "contract_mismatches": 0,
+      "seconds": 0.31324609997682273,
+      "p50_ms": 7.71619999432005,
+      "p95_ms": 22.20189999206923,
+      "p99_ms": 30.17290000570938
+    },
+    {
+      "clients": 35,
+      "requests": 175,
+      "errors": 0,
+      "contract_mismatches": 0,
+      "seconds": 0.1826979999896139,
+      "p50_ms": 29.495999973732978,
+      "p95_ms": 60.66379998810589,
+      "p99_ms": 80.06489998660982
+    },
+    {
+      "clients": 100,
+      "requests": 500,
+      "errors": 0,
+      "contract_mismatches": 0,
+      "seconds": 0.34163619999890216,
+      "p50_ms": 28.754500002833083,
+      "p95_ms": 43.727199983550236,
+      "p99_ms": 56.5333999984432
+    }
+  ],
+  "new_model_calls": 0
+}

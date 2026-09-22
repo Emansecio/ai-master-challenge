@@ -1,0 +1,203 @@
+{
+  "all": {
+    "attempts": 122,
+    "unique_cases": 120,
+    "valid_responses": 120,
+    "failed_attempts": 2,
+    "both_correct": 120,
+    "both_correct_rate": 1.0,
+    "question_correct": {
+      "qualification": 120,
+      "next_action": 120
+    },
+    "confusions": {
+      "qualification": [
+        {
+          "expected": "discovery_required",
+          "actual": "discovery_required",
+          "n": 20
+        },
+        {
+          "expected": "incomplete_profile",
+          "actual": "incomplete_profile",
+          "n": 60
+        },
+        {
+          "expected": "negotiation_reviewable",
+          "actual": "negotiation_reviewable",
+          "n": 40
+        }
+      ],
+      "next_action": [
+        {
+          "expected": "continue_negotiation_review",
+          "actual": "continue_negotiation_review",
+          "n": 20
+        },
+        {
+          "expected": "identify_account",
+          "actual": "identify_account",
+          "n": 60
+        },
+        {
+          "expected": "qualify_prospect",
+          "actual": "qualify_prospect",
+          "n": 20
+        },
+        {
+          "expected": "review_old_negotiation",
+          "actual": "review_old_negotiation",
+          "n": 20
+        }
+      ]
+    },
+    "latency_ms": {
+      "min": 322.13,
+      "median": 396.32,
+      "p95_nearest_rank": 609.69,
+      "max": 4048.19
+    },
+    "usage": {
+      "inputTokens": 115805,
+      "outputTokens": 15120
+    },
+    "gateway_reported_cost_usd": 0.0,
+    "calls_with_cost_metadata": 120,
+    "gateway_reported_market_cost_usd": 0.00486381,
+    "latency_scope": "successful final response per case; retry delays not included"
+  },
+  "development": {
+    "attempts": 61,
+    "unique_cases": 60,
+    "valid_responses": 60,
+    "failed_attempts": 1,
+    "both_correct": 60,
+    "both_correct_rate": 1.0,
+    "question_correct": {
+      "qualification": 60,
+      "next_action": 60
+    },
+    "confusions": {
+      "qualification": [
+        {
+          "expected": "discovery_required",
+          "actual": "discovery_required",
+          "n": 10
+        },
+        {
+          "expected": "incomplete_profile",
+          "actual": "incomplete_profile",
+          "n": 30
+        },
+        {
+          "expected": "negotiation_reviewable",
+          "actual": "negotiation_reviewable",
+          "n": 20
+        }
+      ],
+      "next_action": [
+        {
+          "expected": "continue_negotiation_review",
+          "actual": "continue_negotiation_review",
+          "n": 10
+        },
+        {
+          "expected": "identify_account",
+          "actual": "identify_account",
+          "n": 30
+        },
+        {
+          "expected": "qualify_prospect",
+          "actual": "qualify_prospect",
+          "n": 10
+        },
+        {
+          "expected": "review_old_negotiation",
+          "actual": "review_old_negotiation",
+          "n": 10
+        }
+      ]
+    },
+    "latency_ms": {
+      "min": 331.51,
+      "median": 392.03,
+      "p95_nearest_rank": 609.69,
+      "max": 4048.19
+    },
+    "usage": {
+      "inputTokens": 57904,
+      "outputTokens": 7560
+    },
+    "gateway_reported_cost_usd": 0.0,
+    "calls_with_cost_metadata": 60,
+    "gateway_reported_market_cost_usd": 0.002431968,
+    "latency_scope": "successful final response per case; retry delays not included"
+  },
+  "evaluation": {
+    "attempts": 61,
+    "unique_cases": 60,
+    "valid_responses": 60,
+    "failed_attempts": 1,
+    "both_correct": 60,
+    "both_correct_rate": 1.0,
+    "question_correct": {
+      "qualification": 60,
+      "next_action": 60
+    },
+    "confusions": {
+      "qualification": [
+        {
+          "expected": "discovery_required",
+          "actual": "discovery_required",
+          "n": 10
+        },
+        {
+          "expected": "incomplete_profile",
+          "actual": "incomplete_profile",
+          "n": 30
+        },
+        {
+          "expected": "negotiation_reviewable",
+          "actual": "negotiation_reviewable",
+          "n": 20
+        }
+      ],
+      "next_action": [
+        {
+          "expected": "continue_negotiation_review",
+          "actual": "continue_negotiation_review",
+          "n": 10
+        },
+        {
+          "expected": "identify_account",
+          "actual": "identify_account",
+          "n": 30
+        },
+        {
+          "expected": "qualify_prospect",
+          "actual": "qualify_prospect",
+          "n": 10
+        },
+        {
+          "expected": "review_old_negotiation",
+          "actual": "review_old_negotiation",
+          "n": 10
+        }
+      ]
+    },
+    "latency_ms": {
+      "min": 322.13,
+      "median": 404.85,
+      "p95_nearest_rank": 583.57,
+      "max": 974.13
+    },
+    "usage": {
+      "inputTokens": 57901,
+      "outputTokens": 7560
+    },
+    "gateway_reported_cost_usd": 0.0,
+    "calls_with_cost_metadata": 60,
+    "gateway_reported_market_cost_usd": 0.002431842,
+    "latency_scope": "successful final response per case; retry delays not included"
+  }
+}

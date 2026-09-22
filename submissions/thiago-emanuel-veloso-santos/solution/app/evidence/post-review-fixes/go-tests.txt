@@ -1,0 +1,6 @@
+?   	leaddesk/cmd/leaddesk	[no test files]
+?   	leaddesk/internal/config	[no test files]
+ok  	leaddesk/internal/core	0.579s
+ok  	leaddesk/internal/service	1.153s
+ok  	leaddesk/internal/store	0.295s
+ok  	leaddesk/internal/web	1.065s

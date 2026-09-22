@@ -1,0 +1,20 @@
+{
+  "endpoint": "https://ai-gateway.vercel.sh/v1/evaluate",
+  "requested_model": "typesafe-ai/jev",
+  "policy_version": "0.2-proposed",
+  "cases_sha256": "93b5b17741b87fa43e2daf3370cc1fcb53426629828134c5013528d717b60350",
+  "questions_sha256": "01c8ce8e99b4f57cf6b2bc4c859a94756dd726e17dfbd32f21e51c77d38e05bd",
+  "timeout_seconds": 30,
+  "automatic_retries": 0,
+  "max_reported_cost_usd": 0.05,
+  "provider_options": {
+    "gateway": {
+      "only": [
+        "typesafe-ai"
+      ]
+    }
+  },
+  "latency_definition": "Client wall-clock HTTP round trip including connection/TLS; sequential calls, no SDK retries.",
+  "model_version_note": "Gateway model alias; resolved revision recorded only if supplied by provider.",
+  "started_at": "2026-09-22T06:20:38.824616+00:00"
+}

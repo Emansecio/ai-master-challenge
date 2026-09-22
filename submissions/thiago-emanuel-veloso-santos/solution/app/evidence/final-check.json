@@ -1,0 +1,12 @@
+{
+  "checked_text_files": 34,
+  "no_credentials_in_delivery_files": true,
+  "local_document_links_valid": true,
+  "current_server": {
+    "total_open": 2089,
+    "persisted_case": "UP409DSB",
+    "classification_status": "classified",
+    "provider_metadata_not_exposed": true
+  },
+  "binary_sha256": "d05ac21013831f63bc619dd07f4a516cc2d475823dda1cb1eec9cd6218f956db"
+}

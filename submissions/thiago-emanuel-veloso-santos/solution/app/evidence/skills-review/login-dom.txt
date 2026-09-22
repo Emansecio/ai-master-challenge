@@ -1,0 +1,13 @@
+- img "G4"
+- text: Lead Desk Carteira comercial
+- paragraph: Projeto para o G4 AI Master Challenge
+- heading "Sua carteira. Seu próximo passo." [level=1]
+- paragraph: Entre no Lead Desk para consultar oportunidades e suas prioridades.
+- text: Código de acesso local
+- textbox "Código de acesso local"
+- button "Acessar carteira →"
+- paragraph:
+  - text: O responsável pela instalação encontra os códigos em
+  - code: app/.local/access-codes.json
+  - text: .
+- alert: Entre para acessar a carteira.

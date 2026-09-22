@@ -1,0 +1,12 @@
+{
+  "policy_version": "0.2-proposed",
+  "development_cases_completed": 60,
+  "development_cases_both_correct": 60,
+  "development_http_429": 1,
+  "prompt_changes": 0,
+  "decision": "Executar os 60 casos de avaliacao com exatamente as mesmas perguntas e estados preparados.",
+  "classification_rule": "Usar a alternativa retornada pelo modelo; nao ajustar limiar de confianca nesta avaliacao de aderencia.",
+  "confidence_scope": "Descritiva. Sem erros no desenvolvimento, nao e possivel demonstrar que um limiar discrimina erros.",
+  "operational_change": "Intervalo de 1 segundo entre chamadas; repeticao explicita e limitada de erros transitorios, mantendo todas as tentativas.",
+  "limitations": "Avaliacao de regras sobre dados estruturados; nao mede previsao de fechamento nem validacao independente de negocio."
+}

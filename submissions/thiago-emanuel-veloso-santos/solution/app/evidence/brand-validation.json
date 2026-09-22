@@ -1,0 +1,26 @@
+{
+  "logo": {
+    "alt": "G4",
+    "height": 44.1875,
+    "loaded": true,
+    "naturalHeight": 221,
+    "width": 112
+  },
+  "mobile": {
+    "client": 305,
+    "logoWidth": 75,
+    "scroll": 305
+  },
+  "login": {
+    "client": 320,
+    "logoLoaded": true,
+    "scroll": 320
+  },
+  "console": [],
+  "assertions": {
+    "logo": true,
+    "mobile": true,
+    "login": true,
+    "console": true
+  }
+}

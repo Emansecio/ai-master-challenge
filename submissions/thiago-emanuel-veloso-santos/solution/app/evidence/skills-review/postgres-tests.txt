@@ -1,0 +1,38 @@
+=== RUN   TestRealImportAndReceipts
+--- PASS: TestRealImportAndReceipts (0.53s)
+=== RUN   TestConcurrentDedupAndPersistentResult
+--- PASS: TestConcurrentDedupAndPersistentResult (0.11s)
+=== RUN   TestConcurrentEditsAndLateResponse
+--- PASS: TestConcurrentEditsAndLateResponse (0.08s)
+=== RUN   TestPolicyChangeDuringCall
+--- PASS: TestPolicyChangeDuringCall (0.07s)
+=== RUN   TestLeaseRecoveryAndAttemptLimit
+--- PASS: TestLeaseRecoveryAndAttemptLimit (0.09s)
+=== RUN   TestAccessScopeAndRuntimePrivileges
+--- PASS: TestAccessScopeAndRuntimePrivileges (0.29s)
+=== RUN   TestGlobalConcurrencyGate
+--- PASS: TestGlobalConcurrencyGate (0.07s)
+=== RUN   TestExhaustedLeaseBecomesTerminal
+--- PASS: TestExhaustedLeaseBecomesTerminal (0.07s)
+=== RUN   TestModelEpochCannotReuseOldReceipts
+--- PASS: TestModelEpochCannotReuseOldReceipts (0.03s)
+=== RUN   TestClaimSkipsObsoletePendingIdentity
+=== RUN   TestClaimSkipsObsoletePendingIdentity/version
+=== RUN   TestClaimSkipsObsoletePendingIdentity/policy
+--- PASS: TestClaimSkipsObsoletePendingIdentity (0.14s)
+    --- PASS: TestClaimSkipsObsoletePendingIdentity/version (0.08s)
+    --- PASS: TestClaimSkipsObsoletePendingIdentity/policy (0.06s)
+=== RUN   TestInterruptedAttemptsRecordedOnceAndFenced
+--- PASS: TestInterruptedAttemptsRecordedOnceAndFenced (0.08s)
+=== RUN   TestExpiredObsoleteJobRecordsInterruptionWithoutRedispatch
+--- PASS: TestExpiredObsoleteJobRecordsInterruptionWithoutRedispatch (0.08s)
+=== RUN   TestInterruptedExhaustionRecordsAllAttemptsOnce
+--- PASS: TestInterruptedExhaustionRecordsAllAttemptsOnce (0.08s)
+=== RUN   TestAuditAttemptsAreBoundedScopedAndSafe
+--- PASS: TestAuditAttemptsAreBoundedScopedAndSafe (0.12s)
+=== RUN   TestPageMatchesOriginalOrderingAndScopes
+--- PASS: TestPageMatchesOriginalOrderingAndScopes (10.74s)
+=== RUN   TestAuditScopeVersionsAndCurrentMeaning
+--- PASS: TestAuditScopeVersionsAndCurrentMeaning (0.26s)
+PASS
+ok  	leaddesk/internal/store	20.068s

@@ -1,0 +1,40 @@
+=== RUN   TestUnchangedAccountReleasesConnection
+--- PASS: TestUnchangedAccountReleasesConnection (0.04s)
+=== RUN   TestRealImportAndReceipts
+--- PASS: TestRealImportAndReceipts (0.51s)
+=== RUN   TestConcurrentDedupAndPersistentResult
+--- PASS: TestConcurrentDedupAndPersistentResult (0.10s)
+=== RUN   TestConcurrentEditsAndLateResponse
+--- PASS: TestConcurrentEditsAndLateResponse (0.05s)
+=== RUN   TestPolicyChangeDuringCall
+--- PASS: TestPolicyChangeDuringCall (0.04s)
+=== RUN   TestLeaseRecoveryAndAttemptLimit
+--- PASS: TestLeaseRecoveryAndAttemptLimit (0.06s)
+=== RUN   TestAccessScopeAndRuntimePrivileges
+--- PASS: TestAccessScopeAndRuntimePrivileges (0.22s)
+=== RUN   TestGlobalConcurrencyGate
+--- PASS: TestGlobalConcurrencyGate (0.09s)
+=== RUN   TestExhaustedLeaseBecomesTerminal
+--- PASS: TestExhaustedLeaseBecomesTerminal (0.05s)
+=== RUN   TestModelEpochCannotReuseOldReceipts
+--- PASS: TestModelEpochCannotReuseOldReceipts (0.03s)
+=== RUN   TestClaimSkipsObsoletePendingIdentity
+=== RUN   TestClaimSkipsObsoletePendingIdentity/version
+=== RUN   TestClaimSkipsObsoletePendingIdentity/policy
+--- PASS: TestClaimSkipsObsoletePendingIdentity (0.09s)
+    --- PASS: TestClaimSkipsObsoletePendingIdentity/version (0.05s)
+    --- PASS: TestClaimSkipsObsoletePendingIdentity/policy (0.04s)
+=== RUN   TestInterruptedAttemptsRecordedOnceAndFenced
+--- PASS: TestInterruptedAttemptsRecordedOnceAndFenced (0.06s)
+=== RUN   TestExpiredObsoleteJobRecordsInterruptionWithoutRedispatch
+--- PASS: TestExpiredObsoleteJobRecordsInterruptionWithoutRedispatch (0.04s)
+=== RUN   TestInterruptedExhaustionRecordsAllAttemptsOnce
+--- PASS: TestInterruptedExhaustionRecordsAllAttemptsOnce (0.09s)
+=== RUN   TestAuditAttemptsAreBoundedScopedAndSafe
+--- PASS: TestAuditAttemptsAreBoundedScopedAndSafe (0.05s)
+=== RUN   TestPageMatchesOriginalOrderingAndScopes
+--- PASS: TestPageMatchesOriginalOrderingAndScopes (3.18s)
+=== RUN   TestAuditScopeVersionsAndCurrentMeaning
+--- PASS: TestAuditScopeVersionsAndCurrentMeaning (0.17s)
+PASS
+ok  	leaddesk/internal/store	12.882s

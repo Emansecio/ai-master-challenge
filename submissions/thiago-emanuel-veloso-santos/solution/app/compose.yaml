@@ -1,0 +1,20 @@
+name: g4-leaddesk
+services:
+  db:
+    image: postgres:18.6-bookworm@sha256:3725f4e2499eef5134592b3b4ab79a543ed7f8e533b05b5b637af926630f6650
+    environment:
+      POSTGRES_USER: leadadmin
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run scripts/init-local.ps1 first}
+      POSTGRES_DB: leaddesk
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U leadadmin -d leaddesk"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+volumes:
+  postgres_data:

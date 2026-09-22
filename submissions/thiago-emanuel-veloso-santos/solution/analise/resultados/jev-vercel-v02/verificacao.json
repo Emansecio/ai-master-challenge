@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "unique_cases": 120,
+  "split_counts": {
+    "development": 60,
+    "evaluation": 60
+  },
+  "request_hashes_verified": 122,
+  "policy_changed": false,
+  "credential_found_outside_local_env": false,
+  "checks": [
+    "source and question hashes unchanged",
+    "states and labels match prepared data",
+    "request hashes reconstructed without labels or split",
+    "response contract and chosen argmax valid",
+    "all 120 cases have final successful response",
+    "credentials absent from code/results/docs"
+  ]
+}

@@ -1,0 +1,363 @@
+- img "G4"
+- text: Lead Desk Inteligência comercial Carteira comercial
+- strong: admin
+- text: Administrador
+- button "Sair"
+- link "Pular para a carteira":
+  - /url: "#main-content"
+- main:
+  - heading "Onde focar agora" [level=1]
+  - paragraph: Entenda a prioridade e escolha o próximo passo.
+  - button "Atualizar"
+  - text: Base histórica · 31 dez 2017 Prioridade orienta a ação, não a chance de fechamento.
+  - link "Entenda os critérios":
+    - /url: "#method"
+  - group:
+    - region "Resumo da carteira":
+      - article:
+        - text: Oportunidades abertas
+        - strong: "2.089"
+        - text: na seleção atual
+      - article:
+        - text: Revisar negociação
+        - strong: "457"
+        - text: duração acima da referência
+      - article:
+        - text: Qualificar prospecção
+        - strong: "163"
+        - text: conta identificada, descoberta pendente
+      - article:
+        - text: Completar cadastro
+        - strong: "1.425"
+        - text: empresa ainda não vinculada
+  - region "Filtros":
+    - text: Buscar oportunidade
+    - searchbox "Buscar oportunidade"
+    - text: Vendedor
+    - combobox "Vendedor":
+      - option "Todos" [selected]
+      - option "Anna Snelling"
+      - option "Boris Faz"
+      - option "Cassey Cress"
+      - option "Cecily Lampkin"
+      - option "Corliss Cosme"
+      - option "Daniell Hammack"
+      - option "Darcel Schlecht"
+      - option "Elease Gluck"
+      - option "Gladys Colclough"
+      - option "Hayden Neloms"
+      - option "James Ascencio"
+      - option "Jonathan Berthelot"
+      - option "Kami Bicknell"
+      - option "Kary Hendrixson"
+      - option "Lajuana Vencill"
+      - option "Markita Hansen"
+      - option "Marty Freudenburg"
+      - option "Maureen Marcano"
+      - option "Moses Frase"
+      - option "Niesha Huffines"
+      - option "Rosalina Dieter"
+      - option "Rosie Papadopoulos"
+      - option "Versie Hillebrand"
+      - option "Vicki Laflamme"
+      - option "Violet Mclelland"
+      - option "Wilburn Farren"
+      - option "Zane Levy"
+    - text: Gestor
+    - combobox "Gestor":
+      - option "Todos" [selected]
+      - option "Cara Losch"
+      - option "Celia Rouche"
+      - option "Dustin Brinkmann"
+      - option "Melvin Marxen"
+      - option "Rocco Neubert"
+      - option "Summer Sewald"
+    - text: Região
+    - combobox "Região":
+      - option "Todas" [selected]
+      - option "Central"
+      - option "East"
+      - option "West"
+    - button "Limpar"
+  - text: 1.425 sem empresa vinculada (68,2% da seleção). Perfil incompleto não indica menor potencial comercial.
+  - button "Ver cadastros"
+  - button "Todas 2.089" [pressed]
+  - button "Revisar 457"
+  - button "Qualificar 163"
+  - button "Próximo passo 44"
+  - button "Cadastro 1.425"
+  - heading "Oportunidades" [level=2]
+  - status: 2.089 oportunidades encontradas. Página 1 de 105.
+  - text: Selecione para conferir
+  - region "Lista de oportunidades":
+    - table "Carteira ordenada pela política operacional. Selecione uma empresa para abrir os detalhes.":
+      - caption: Carteira ordenada pela política operacional. Selecione uma empresa para abrir os detalhes.
+      - rowgroup:
+        - row "Empresa / oportunidade Próxima ação Valor de catálogo Orientação":
+          - columnheader "Empresa / oportunidade"
+          - columnheader "Próxima ação"
+          - columnheader "Valor de catálogo"
+          - columnheader "Orientação"
+      - rowgroup:
+        - row "Ganjaflex MG Advanced UP409DSB Revisar negociação 312 dias acima da referência Maureen Marcano US$ 3.393 preço de catálogo ✓ Jev · coerente com a política":
+          - cell "Ganjaflex MG Advanced UP409DSB":
+            - button "Ganjaflex MG Advanced UP409DSB" [pressed]
+          - cell "Revisar negociação 312 dias acima da referência Maureen Marcano"
+          - cell "US$ 3.393 preço de catálogo"
+          - cell "✓ Jev · coerente com a política"
+        - row "Lexiqvolax MG Special VDIU10RV Revisar negociação 299 dias acima da referência Markita Hansen US$ 55 preço de catálogo ✓ Jev · coerente com a política":
+          - cell "Lexiqvolax MG Special VDIU10RV":
+            - button "Lexiqvolax MG Special VDIU10RV"
+          - cell "Revisar negociação 299 dias acima da referência Markita Hansen"
+          - cell "US$ 55 preço de catálogo"
+          - cell "✓ Jev · coerente com a política"
+        - row "Green-Plus GTX Basic 0DRC1U9Q Revisar negociação 301 dias acima da referência Maureen Marcano US$ 550 preço de catálogo Política local":
+          - cell "Green-Plus GTX Basic 0DRC1U9Q":
+            - button "Green-Plus GTX Basic 0DRC1U9Q"
+          - cell "Revisar negociação 301 dias acima da referência Maureen Marcano"
+          - cell "US$ 550 preço de catálogo"
+          - cell "Política local"
+        - row "Cheers GTX Basic M7I5O9YU Revisar negociação 298 dias acima da referência Corliss Cosme US$ 550 preço de catálogo Política local":
+          - cell "Cheers GTX Basic M7I5O9YU":
+            - button "Cheers GTX Basic M7I5O9YU"
+          - cell "Revisar negociação 298 dias acima da referência Corliss Cosme"
+          - cell "US$ 550 preço de catálogo"
+          - cell "Política local"
+        - row "Opentech MG Advanced PFFHM7HR Revisar negociação 295 dias acima da referência Markita Hansen US$ 3.393 preço de catálogo Política local":
+          - cell "Opentech MG Advanced PFFHM7HR":
+            - button "Opentech MG Advanced PFFHM7HR"
+          - cell "Revisar negociação 295 dias acima da referência Markita Hansen"
+          - cell "US$ 3.393 preço de catálogo"
+          - cell "Política local"
+        - row "J-Texon GTX Plus Basic 579LZ3F9 Revisar negociação 297 dias acima da referência Daniell Hammack US$ 1.096 preço de catálogo Política local":
+          - cell "J-Texon GTX Plus Basic 579LZ3F9":
+            - button "J-Texon GTX Plus Basic 579LZ3F9"
+          - cell "Revisar negociação 297 dias acima da referência Daniell Hammack"
+          - cell "US$ 1.096 preço de catálogo"
+          - cell "Política local"
+        - row "Bubba Gump GTX Plus Basic SU8JNMP4 Revisar negociação 297 dias acima da referência Kami Bicknell US$ 1.096 preço de catálogo Política local":
+          - cell "Bubba Gump GTX Plus Basic SU8JNMP4":
+            - button "Bubba Gump GTX Plus Basic SU8JNMP4"
+          - cell "Revisar negociação 297 dias acima da referência Kami Bicknell"
+          - cell "US$ 1.096 preço de catálogo"
+          - cell "Política local"
+        - row "Stanredtax GTX Pro ICMXZOVL Revisar negociação 286 dias acima da referência Daniell Hammack US$ 4.821 preço de catálogo Política local":
+          - cell "Stanredtax GTX Pro ICMXZOVL":
+            - button "Stanredtax GTX Pro ICMXZOVL"
+          - cell "Revisar negociação 286 dias acima da referência Daniell Hammack"
+          - cell "US$ 4.821 preço de catálogo"
+          - cell "Política local"
+        - row "Plussunin GTX Pro MNVMY83P Revisar negociação 284 dias acima da referência Cassey Cress US$ 4.821 preço de catálogo Política local":
+          - cell "Plussunin GTX Pro MNVMY83P":
+            - button "Plussunin GTX Pro MNVMY83P"
+          - cell "Revisar negociação 284 dias acima da referência Cassey Cress"
+          - cell "US$ 4.821 preço de catálogo"
+          - cell "Política local"
+        - row "Genco Pura Olive Oil Company GTX Plus Pro EZVKSQ9C Revisar negociação 277 dias acima da referência Boris Faz US$ 5.482 preço de catálogo Política local":
+          - cell "Genco Pura Olive Oil Company GTX Plus Pro EZVKSQ9C":
+            - button "Genco Pura Olive Oil Company GTX Plus Pro EZVKSQ9C"
+          - cell "Revisar negociação 277 dias acima da referência Boris Faz"
+          - cell "US$ 5.482 preço de catálogo"
+          - cell "Política local"
+        - row "Blackzim GTX Pro K5CWSFCW Revisar negociação 273 dias acima da referência Elease Gluck US$ 4.821 preço de catálogo Política local":
+          - cell "Blackzim GTX Pro K5CWSFCW":
+            - button "Blackzim GTX Pro K5CWSFCW"
+          - cell "Revisar negociação 273 dias acima da referência Elease Gluck"
+          - cell "US$ 4.821 preço de catálogo"
+          - cell "Política local"
+        - row "Opentech GTX Pro SQLYCFGV Revisar negociação 272 dias acima da referência Zane Levy US$ 4.821 preço de catálogo Política local":
+          - cell "Opentech GTX Pro SQLYCFGV":
+            - button "Opentech GTX Pro SQLYCFGV"
+          - cell "Revisar negociação 272 dias acima da referência Zane Levy"
+          - cell "US$ 4.821 preço de catálogo"
+          - cell "Política local"
+        - row "Hottechi GTX Plus Basic J53D8EOL Revisar negociação 277 dias acima da referência Kary Hendrixson US$ 1.096 preço de catálogo Política local":
+          - cell "Hottechi GTX Plus Basic J53D8EOL":
+            - button "Hottechi GTX Plus Basic J53D8EOL"
+          - cell "Revisar negociação 277 dias acima da referência Kary Hendrixson"
+          - cell "US$ 1.096 preço de catálogo"
+          - cell "Política local"
+        - row "Plexzap MG Special N07K7DR7 Revisar negociação 274 dias acima da referência Rosie Papadopoulos US$ 55 preço de catálogo Política local":
+          - cell "Plexzap MG Special N07K7DR7":
+            - button "Plexzap MG Special N07K7DR7"
+          - cell "Revisar negociação 274 dias acima da referência Rosie Papadopoulos"
+          - cell "US$ 55 preço de catálogo"
+          - cell "Política local"
+        - row "Warephase GTK 500 125VIRMX Revisar negociação 273 dias acima da referência Elease Gluck US$ 26.768 preço de catálogo Política local":
+          - cell "Warephase GTK 500 125VIRMX":
+            - button "Warephase GTK 500 125VIRMX"
+          - cell "Revisar negociação 273 dias acima da referência Elease Gluck"
+          - cell "US$ 26.768 preço de catálogo"
+          - cell "Política local"
+        - row "Domzoom GTX Basic RJYG004O Revisar negociação 275 dias acima da referência Daniell Hammack US$ 550 preço de catálogo Política local":
+          - cell "Domzoom GTX Basic RJYG004O":
+            - button "Domzoom GTX Basic RJYG004O"
+          - cell "Revisar negociação 275 dias acima da referência Daniell Hammack"
+          - cell "US$ 550 preço de catálogo"
+          - cell "Política local"
+        - row "Gogozoom MG Advanced B00UMAV4 Revisar negociação 266 dias acima da referência Kami Bicknell US$ 3.393 preço de catálogo Política local":
+          - cell "Gogozoom MG Advanced B00UMAV4":
+            - button "Gogozoom MG Advanced B00UMAV4"
+          - cell "Revisar negociação 266 dias acima da referência Kami Bicknell"
+          - cell "US$ 3.393 preço de catálogo"
+          - cell "Política local"
+        - row "Finhigh GTX Plus Basic IE7VQ5BA Revisar negociação 268 dias acima da referência Daniell Hammack US$ 1.096 preço de catálogo Política local":
+          - cell "Finhigh GTX Plus Basic IE7VQ5BA":
+            - button "Finhigh GTX Plus Basic IE7VQ5BA"
+          - cell "Revisar negociação 268 dias acima da referência Daniell Hammack"
+          - cell "US$ 1.096 preço de catálogo"
+          - cell "Política local"
+        - row "Treequote GTX Basic AI76U58A Revisar negociação 266 dias acima da referência Maureen Marcano US$ 550 preço de catálogo Política local":
+          - cell "Treequote GTX Basic AI76U58A":
+            - button "Treequote GTX Basic AI76U58A"
+          - cell "Revisar negociação 266 dias acima da referência Maureen Marcano"
+          - cell "US$ 550 preço de catálogo"
+          - cell "Política local"
+        - row "Nam-zim GTX Pro CJ2ON1LV Revisar negociação 252 dias acima da referência Corliss Cosme US$ 4.821 preço de catálogo Política local":
+          - cell "Nam-zim GTX Pro CJ2ON1LV":
+            - button "Nam-zim GTX Pro CJ2ON1LV"
+          - cell "Revisar negociação 252 dias acima da referência Corliss Cosme"
+          - cell "US$ 4.821 preço de catálogo"
+          - cell "Política local"
+  - text: 2.089 oportunidades · página 1 de 105
+  - button "Página anterior" [disabled]: ←
+  - button "Próxima página": →
+  - complementary "Detalhes da oportunidade":
+    - text: Oportunidade Revisar negociação
+    - heading "Ganjaflex" [level=2]
+    - text: UP409DSB · versão 1
+    - paragraph: MG Advanced US$ 3.393 · preço de catálogo
+    - region "Por que esta ação?":
+      - heading "Por que esta ação?" [level=3]
+      - text: Critério da política
+      - strong: Empresa identificada e duração acima da referência
+      - paragraph: A duração registrada ultrapassa a referência histórica. Verifique o status atual e os obstáculos antes de decidir como continuar o atendimento.
+      - term: Empresa
+      - definition: Ganjaflex
+      - term: Estágio registrado
+      - definition: Em negociação
+      - term: Duração calculada
+      - definition: 416 dias em 31/12/2017
+      - figure "312 dias acima da referência Duração em 31/12/2017":
+        - strong: 312 dias acima da referência
+        - text: Duração em 31/12/2017 Negociação
+        - strong: 416 dias
+        - text: Referência P90
+        - strong: 104 dias
+        - paragraph: "Referência do produto: 1.084 negócios encerrados."
+        - group: Como interpretar esta comparação
+      - paragraph: Tempo em negociação não é tempo sem contato. A comparação não indica perda, urgência ou desinteresse.
+    - heading "Como conduzir o atendimento" [level=3]
+    - paragraph: Perguntas sugeridas. Registre as respostas confirmadas no CRM de origem.
+    - list:
+      - listitem:
+        - strong: Confira se a negociação segue ativa
+        - paragraph: Quando ocorreu o último contato e o que o cliente respondeu?
+        - text: "Resultado esperado: Data e resultado do contato, situação atual e eventual motivo de pausa ou encerramento, no CRM de origem."
+      - listitem:
+        - strong: Identifique o obstáculo
+        - paragraph: Há uma pendência do cliente, da equipe ou de outra pessoa que impeça o avanço?
+        - text: "Resultado esperado: Obstáculo confirmado e responsável por resolvê-lo no CRM de origem."
+      - listitem:
+        - strong: Combine um próximo passo verificável
+        - paragraph: Qual ação foi combinada com o cliente, quem é responsável e para quando?
+        - text: "Resultado esperado: Ação, responsável e data confirmados no CRM de origem. Não presuma um compromisso ainda não acordado."
+    - group: O que ainda não sabemos (6)
+    - group: Resumo para levar ao CRM
+    - group: Dados da oportunidade
+    - group: Jev · coerente com a política
+    - region "Conta vinculada":
+      - heading "Conta vinculada" [level=3]
+      - combobox "Empresa vinculada":
+        - option "Sem empresa"
+        - option "Acme Corporation"
+        - option "Betasoloin"
+        - option "Betatech"
+        - option "Bioholding"
+        - option "Bioplex"
+        - option "Blackzim"
+        - option "Bluth Company"
+        - option "Bubba Gump"
+        - option "Cancity"
+        - option "Cheers"
+        - option "Codehow"
+        - option "Condax"
+        - option "Conecom"
+        - option "Dalttechnology"
+        - option "dambase"
+        - option "Domzoom"
+        - option "Doncon"
+        - option "Donquadtech"
+        - option "Dontechi"
+        - option "Donware"
+        - option "Fasehatice"
+        - option "Faxquote"
+        - option "Finhigh"
+        - option "Finjob"
+        - option "Funholding"
+        - option "Ganjaflex" [selected]
+        - option "Gekko & Co"
+        - option "Genco Pura Olive Oil Company"
+        - option "Globex Corporation"
+        - option "Gogozoom"
+        - option "Golddex"
+        - option "Goodsilron"
+        - option "Green-Plus"
+        - option "Groovestreet"
+        - option "Hatfan"
+        - option "Hottechi"
+        - option "Initech"
+        - option "Inity"
+        - option "Isdom"
+        - option "Iselectrics"
+        - option "J-Texon"
+        - option "Kan-code"
+        - option "Kinnamplus"
+        - option "Konex"
+        - option "Konmatfix"
+        - option "Labdrill"
+        - option "Lexiqvolax"
+        - option "Massive Dynamic"
+        - option "Mathtouch"
+        - option "Nam-zim"
+        - option "Newex"
+        - option "Ontomedia"
+        - option "Opentech"
+        - option "Plexzap"
+        - option "Plusstrip"
+        - option "Plussunin"
+        - option "Rangreen"
+        - option "Rantouch"
+        - option "Ron-tech"
+        - option "Rundofase"
+        - option "Scotfind"
+        - option "Scottech"
+        - option "Silis"
+        - option "Singletechno"
+        - option "Sonron"
+        - option "Stanredtax"
+        - option "Statholdings"
+        - option "Streethex"
+        - option "Sumace"
+        - option "Sunnamplex"
+        - option "The New York Inquirer"
+        - option "Toughzap"
+        - option "Treequote"
+        - option "Umbrella Corporation"
+        - option "Vehement Capital Partners"
+        - option "Warephase"
+        - option "Xx-holding"
+        - option "Xx-zobam"
+        - option "Y-corporation"
+        - option "Yearin"
+        - option "Zathunicon"
+        - option "Zencorporation"
+        - option "Zoomit"
+        - option "Zotware"
+        - option "Zumgoity"
+      - button "Salvar" [disabled]
+      - status: Nenhuma alteração pendente.
+      - paragraph: Uma alteração invalida a classificação anterior e fica registrada no histórico local.
+    - group: Histórico e rastreabilidade
+  - group: Como esta prioridade é definida?
+  - text: LEAD DESK Dados reais · CRM Sales Predictive Analytics · G4 Challenge 003

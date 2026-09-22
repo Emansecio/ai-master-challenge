@@ -1,0 +1,1805 @@
+{
+  "method": "computed text foreground / nearest opaque ancestor background; excludes images, gradients and alpha blending",
+  "rows": [
+    {
+      "background": [
+        50,
+        101,
+        252
+      ],
+      "color": "rgb(255, 255, 255)",
+      "font": "26px",
+      "id": "",
+      "pass": true,
+      "ratio": 4.769747162298976,
+      "required": 3,
+      "tag": "DIV",
+      "text": "L"
+    },
+    {
+      "background": [
+        50,
+        101,
+        252
+      ],
+      "color": "rgb(255, 255, 255)",
+      "font": "14px",
+      "id": "",
+      "pass": true,
+      "ratio": 4.769747162298976,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "↗"
+    },
+    {
+      "background": [
+        17,
+        30,
+        53
+      ],
+      "color": "rgb(238, 244, 255)",
+      "font": "17px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.0836084596803,
+      "required": 4.5,
+      "tag": "DIV",
+      "text": "Lead Desk"
+    },
+    {
+      "background": [
+        17,
+        30,
+        53
+      ],
+      "color": "rgb(184, 199, 225)",
+      "font": "20px",
+      "id": "logout",
+      "pass": true,
+      "ratio": 9.750323791125489,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "↪"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 69, 192)",
+      "font": "14px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.928014646834808,
+      "required": 4.5,
+      "tag": "A",
+      "text": "Pular para a carteira"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "9px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Vendas  Carteira comercial"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "9px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "/"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "◷ Fotografia de 31 dez 2017"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(41, 92, 241)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.023269966633348,
+      "required": 4.5,
+      "tag": "P",
+      "text": "CLAREZA PARA AGIR"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "25px",
+      "id": "",
+      "pass": true,
+      "ratio": 14.62486862577537,
+      "required": 3,
+      "tag": "H1",
+      "text": "Onde focar agora"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Revise sua carteira, entenda a prioridade e escolha o próximo passo."
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 81, 106)",
+      "font": "13px",
+      "id": "refresh",
+      "pass": true,
+      "ratio": 8.025242091611803,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "↻ Atualizar"
+    },
+    {
+      "background": [
+        236,
+        242,
+        255
+      ],
+      "color": "rgb(70, 99, 143)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.4365416550515135,
+      "required": 4.5,
+      "tag": "DIV",
+      "text": "Base histórica do desafio. A prioridade indica uma ação de trabalho; não represe"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Oportunidades abertas"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "25px",
+      "id": "metric-total",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 3,
+      "tag": "STRONG",
+      "text": "1"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SMALL",
+      "text": "na seleção atual"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Revisar negociação"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "25px",
+      "id": "metric-review",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 3,
+      "tag": "STRONG",
+      "text": "0"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SMALL",
+      "text": "duração acima da referência"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Qualificar prospecção"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "25px",
+      "id": "metric-discovery",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 3,
+      "tag": "STRONG",
+      "text": "0"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SMALL",
+      "text": "conta identificada, descoberta pendente"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Completar cadastro"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "25px",
+      "id": "metric-missing",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 3,
+      "tag": "STRONG",
+      "text": "1"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SMALL",
+      "text": "empresa ainda não vinculada"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Buscar oportunidade"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Vendedor"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Gestor"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Região"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(41, 92, 241)",
+      "font": "13px",
+      "id": "clear",
+      "pass": true,
+      "ratio": 5.023269966633348,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Limpar"
+    },
+    {
+      "background": [
+        236,
+        242,
+        255
+      ],
+      "color": "rgb(70, 99, 143)",
+      "font": "13px",
+      "id": "data-quality-text",
+      "pass": true,
+      "ratio": 5.4365416550515135,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "1 de 1 oportunidades (100%) estão sem empresa vinculada nos filtros atuais. Isso"
+    },
+    {
+      "background": [
+        236,
+        242,
+        255
+      ],
+      "color": "rgb(41, 92, 241)",
+      "font": "13px",
+      "id": "open-missing",
+      "pass": true,
+      "ratio": 4.803569971139027,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Ver fila de cadastro →"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(23, 69, 192)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.3871076160351725,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Todas"
+    },
+    {
+      "background": [
+        233,
+        237,
+        244
+      ],
+      "color": "rgb(73, 88, 108)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.176254321699144,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "1"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Revisar"
+    },
+    {
+      "background": [
+        233,
+        237,
+        244
+      ],
+      "color": "rgb(73, 88, 108)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.176254321699144,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "0"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Qualificar"
+    },
+    {
+      "background": [
+        233,
+        237,
+        244
+      ],
+      "color": "rgb(73, 88, 108)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.176254321699144,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "0"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Próximo passo"
+    },
+    {
+      "background": [
+        233,
+        237,
+        244
+      ],
+      "color": "rgb(73, 88, 108)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.176254321699144,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "0"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Cadastro"
+    },
+    {
+      "background": [
+        233,
+        237,
+        244
+      ],
+      "color": "rgb(73, 88, 108)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.176254321699144,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "1"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "load-status",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "P",
+      "text": "1 oportunidade encontrada. Página 1 de 1."
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "H2",
+      "text": "Oportunidades"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 69, 192)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.928014646834808,
+      "required": 4.5,
+      "tag": "A",
+      "text": "Como ordenamos"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "14px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "CAPTION",
+      "text": "Carteira ordenada pela política operacional. Selecione uma empresa para abrir os"
+    },
+    {
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.092117080932463,
+      "required": 4.5,
+      "tag": "TH",
+      "text": "EMPRESA / OPORTUNIDADE"
+    },
+    {
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.092117080932463,
+      "required": 4.5,
+      "tag": "TH",
+      "text": "PRÓXIMA AÇÃO"
+    },
+    {
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.092117080932463,
+      "required": 4.5,
+      "tag": "TH",
+      "text": "REFERÊNCIA DE VALOR"
+    },
+    {
+      "background": [
+        252,
+        253,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.092117080932463,
+      "required": 4.5,
+      "tag": "TH",
+      "text": "CLASSIFICAÇÃO"
+    },
+    {
+      "background": [
+        241,
+        245,
+        255
+      ],
+      "color": "rgb(30, 46, 71)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 12.521316449186548,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Empresa não vinculada"
+    },
+    {
+      "background": [
+        241,
+        245,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.682274307776944,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "GTK 500 · A7SA2L21"
+    },
+    {
+      "background": [
+        241,
+        243,
+        247
+      ],
+      "color": "rgb(73, 88, 108)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.528062015186003,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Completar cadastro"
+    },
+    {
+      "background": [
+        241,
+        245,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.682274307776944,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Elease Gluck"
+    },
+    {
+      "background": [
+        241,
+        245,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 14.384118915472492,
+      "required": 4.5,
+      "tag": "TD",
+      "text": "US$ 26.768"
+    },
+    {
+      "background": [
+        241,
+        245,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.682274307776944,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "preço de catálogo"
+    },
+    {
+      "background": [
+        241,
+        245,
+        255
+      ],
+      "color": "rgb(33, 107, 83)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.8448696351214044,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Jev · coerente com a política"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "page-label",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "1 oportunidade · página 1 de 1"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 81, 106)",
+      "font": "13px",
+      "id": "prev",
+      "pass": true,
+      "ratio": 8.025242091611803,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "←"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 81, 106)",
+      "font": "13px",
+      "id": "next",
+      "pass": true,
+      "ratio": 8.025242091611803,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "→"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DIV",
+      "text": "DETALHE DA OPORTUNIDADE"
+    },
+    {
+      "background": [
+        241,
+        243,
+        247
+      ],
+      "color": "rgb(73, 88, 108)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.528062015186003,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Completar cadastro"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "21px",
+      "id": "detail-title",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "H2",
+      "text": "Empresa não vinculada"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DIV",
+      "text": "A7SA2L21 · versão 1"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DT",
+      "text": "Produto"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 83, 109)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.8073354595411955,
+      "required": 4.5,
+      "tag": "DD",
+      "text": "GTK 500"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DT",
+      "text": "Preço de catálogo"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 83, 109)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.8073354595411955,
+      "required": 4.5,
+      "tag": "DD",
+      "text": "US$ 26.768"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DT",
+      "text": "Setor"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 83, 109)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.8073354595411955,
+      "required": 4.5,
+      "tag": "DD",
+      "text": "Não informado"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DT",
+      "text": "Vendedor"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 83, 109)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.8073354595411955,
+      "required": 4.5,
+      "tag": "DD",
+      "text": "Elease Gluck"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DT",
+      "text": "Gestor"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 83, 109)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.8073354595411955,
+      "required": 4.5,
+      "tag": "DD",
+      "text": "Celia Rouche"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DT",
+      "text": "Região"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 83, 109)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.8073354595411955,
+      "required": 4.5,
+      "tag": "DD",
+      "text": "West"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DT",
+      "text": "Estágio"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 83, 109)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.8073354595411955,
+      "required": 4.5,
+      "tag": "DD",
+      "text": "Em negociação"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "DT",
+      "text": "Qualificação"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 83, 109)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 7.8073354595411955,
+      "required": 4.5,
+      "tag": "DD",
+      "text": "Perfil incompleto"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "H3",
+      "text": "Por que esta ação?"
+    },
+    {
+      "background": [
+        246,
+        248,
+        252
+      ],
+      "color": "rgb(89, 107, 133)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.108233618135948,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Identifique a empresa antes de avaliar o perfil da oportunidade."
+    },
+    {
+      "background": [
+        246,
+        248,
+        252
+      ],
+      "color": "rgb(89, 107, 133)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.108233618135948,
+      "required": 4.5,
+      "tag": "P",
+      "text": "335 dias em negociação; referência histórica de 104 dias. Idade não significa in"
+    },
+    {
+      "background": [
+        246,
+        248,
+        252
+      ],
+      "color": "rgb(89, 107, 133)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.108233618135948,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta ba"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "P",
+      "text": "P90: 104 dias. Referência global: o produto tem apenas 25 negócios encerrados, a"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "H3",
+      "text": "O que conferir agora"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(89, 107, 133)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.431214574629852,
+      "required": 4.5,
+      "tag": "LI",
+      "text": "Qual é a empresa desta oportunidade? Confirme a identidade antes de vinculá-la."
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(89, 107, 133)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.431214574629852,
+      "required": 4.5,
+      "tag": "LI",
+      "text": "Quem é o responsável comercial e onde está registrado o contato?"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(89, 107, 133)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.431214574629852,
+      "required": 4.5,
+      "tag": "LI",
+      "text": "Além do cadastro, confirme se a negociação continua ativa e qual foi o último co"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Roteiro sugerido para conferência. Estas respostas ainda não estão na base; regi"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "H3",
+      "text": "Jev · coerente com a política"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "P",
+      "text": "As duas respostas concordam com a política local; isso não comprova a qualidade "
+    },
+    {
+      "background": [
+        41,
+        92,
+        241
+      ],
+      "color": "rgb(255, 255, 255)",
+      "font": "13px",
+      "id": "classify",
+      "pass": true,
+      "ratio": 5.391089441289243,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "✓ Coerência com a política conferida"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "H3",
+      "text": "Conta vinculada"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Uma alteração invalida a classificação anterior e fica registrada no histórico l"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(66, 81, 106)",
+      "font": "13px",
+      "id": "save-account",
+      "pass": true,
+      "ratio": 8.025242091611803,
+      "required": 4.5,
+      "tag": "BUTTON",
+      "text": "Salvar"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "12px",
+      "id": "draft-status",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Nenhuma alteração pendente."
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(49, 70, 99)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 9.60295166401709,
+      "required": 4.5,
+      "tag": "SUMMARY",
+      "text": "Histórico e rastreabilidade"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Versão atual: 1. Política: 0.2-proposed."
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Mostrando até 20 registros mais recentes de cada histórico. As datas são dos reg"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "H4",
+      "text": "Versões dos dados (1)"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "LI",
+      "text": "· Sem empresadataset · 22/09/2026, 04:53:49 (Brasília)"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "STRONG",
+      "text": "Versão 1"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "H4",
+      "text": "Classificações (1)"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "LI",
+      "text": "· versão 1Ensaio real importado · typesafe-ai/jev22/09/2026, 03:23:35 (Brasília)"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "STRONG",
+      "text": "Atual"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "CODE",
+      "text": "incomplete_profile"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "CODE",
+      "text": "identify_account"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(49, 70, 99)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 9.60295166401709,
+      "required": 4.5,
+      "tag": "SUMMARY",
+      "text": "Assinatura da classificação"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(23, 35, 58)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 15.69574706364071,
+      "required": 4.5,
+      "tag": "CODE",
+      "text": "910fe33ffa736ceb5a05221146ddf7982cb7f91f023baa7b56039175956b8499"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(49, 70, 99)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 9.60295166401709,
+      "required": 4.5,
+      "tag": "SUMMARY",
+      "text": "Identificação das fontes"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Assinatura da política ativa:"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "CODE",
+      "text": "910fe33ffa736ceb5a05221146ddf7982cb7f91f023baa7b56039175956b8499"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "P",
+      "text": "SHA-256 do dataset:"
+    },
+    {
+      "background": [
+        255,
+        255,
+        255
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "11px",
+      "id": "",
+      "pass": true,
+      "ratio": 6.200417335618319,
+      "required": 4.5,
+      "tag": "CODE",
+      "text": "74d535826330b616758ebb6bb393abf701a5126364a72fbe71003cb6a7a87a9c"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(49, 70, 99)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 8.947768203480763,
+      "required": 4.5,
+      "tag": "SUMMARY",
+      "text": "Como esta prioridade é definida?"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "P",
+      "text": "Dados inconsistentes exigem revisão humana. Depois, revisar negociações com cont"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "13px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "P",
+      "text": "A política local define a orientação. Jev classifica os mesmos fatos, e a aplica"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "FOOTER",
+      "text": "LEAD DESK"
+    },
+    {
+      "background": [
+        245,
+        247,
+        250
+      ],
+      "color": "rgb(82, 98, 122)",
+      "font": "12px",
+      "id": "",
+      "pass": true,
+      "ratio": 5.7773796042151755,
+      "required": 4.5,
+      "tag": "SPAN",
+      "text": "Dados reais · CRM Sales Predictive Analytics · G4 Challenge 003"
+    }
+  ]
+}

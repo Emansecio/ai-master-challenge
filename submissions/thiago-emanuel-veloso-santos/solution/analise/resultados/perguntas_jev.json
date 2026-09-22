@@ -1,0 +1,27 @@
+{
+  "policy_version": "0.2-proposed",
+  "questions": {
+    "qualification": {
+      "type": "choice",
+      "instructions": "Classifique a situacao de qualificacao usando apenas os fatos fornecidos. Conta ausente: incomplete_profile. Conta presente em Prospecting: discovery_required. Conta presente em Engaging: negotiation_reviewable. Estas classes nao significam intencao de compra nem probabilidade de ganhar. Se o estado violar o contrato ou apresentar contradicao que impeça a escolha: human_review.",
+      "criteria": {
+        "incomplete_profile": "A conta nao esta identificada; faltam atributos para qualificacao do perfil.",
+        "discovery_required": "Conta identificada, oportunidade em Prospecting; necessidades comerciais nao estao registradas.",
+        "negotiation_reviewable": "Conta identificada e estagio Engaging; existe contexto cadastral para revisar a negociacao, sem afirmar adequacao ou intencao.",
+        "human_review": "Estado invalido, contraditorio ou fora das classes previstas; nao inferir uma classe comercial."
+      }
+    },
+    "next_action": {
+      "type": "choice",
+      "instructions": "Escolha a proxima acao segundo esta precedencia: estado invalido ou contraditorio -> human_review; conta ausente -> identify_account; conta presente em Prospecting -> qualify_prospect; conta presente em Engaging com age_exceeds_reference_p90=true -> review_old_negotiation; demais Engaging validos -> continue_negotiation_review. P90 e apenas referencia descritiva, nao SLA, urgencia ou inatividade. Nao contatar clientes ou alterar o CRM.",
+      "criteria": {
+        "identify_account": "Confirmar ou vincular a empresa ao registro antes de qualificar seu perfil.",
+        "qualify_prospect": "Levantar necessidade, interlocutor e proximo passo; nao presumir essas informacoes.",
+        "review_old_negotiation": "Verificar o status atual de negociacao que ultrapassou a referencia historica de duracao.",
+        "continue_negotiation_review": "Revisar o proximo passo comercial; nao ha alerta de idade pela regra atual.",
+        "human_review": "A inconsistencia do estado impede aplicar a politica."
+      }
+    }
+  },
+  "note": "Questions para futura integracao. Nenhuma chamada executada. Provider e versao de modelo devem ser fixados no ensaio. Nao enviar expected_by_policy nem split ao modelo."
+}

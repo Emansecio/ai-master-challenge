@@ -1,0 +1,354 @@
+{
+  "desktop_feedback": {
+    "message": {
+      "text": "BTT6YAVZ: Resumo da versão 1 copiado. Atendimento não registrado.",
+      "hidden": false,
+      "display": "block",
+      "top": -44.328125,
+      "bottom": 2.46875,
+      "inViewport": true
+    },
+    "detail-message": {
+      "text": "Resumo da versão 1 copiado. Atendimento não registrado.",
+      "hidden": false,
+      "display": "none",
+      "top": 0,
+      "bottom": 0,
+      "inViewport": false
+    }
+  },
+  "forms": [
+    {
+      "id": "access-code",
+      "name": "",
+      "autocomplete": "current-password",
+      "type": "password",
+      "spellcheck": false
+    },
+    {
+      "id": "search",
+      "name": "",
+      "autocomplete": null,
+      "type": "search",
+      "spellcheck": true
+    },
+    {
+      "id": "sales_agent",
+      "name": "",
+      "autocomplete": null,
+      "type": "select-one",
+      "spellcheck": true
+    },
+    {
+      "id": "manager",
+      "name": "",
+      "autocomplete": null,
+      "type": "select-one",
+      "spellcheck": true
+    },
+    {
+      "id": "region",
+      "name": "",
+      "autocomplete": null,
+      "type": "select-one",
+      "spellcheck": true
+    },
+    {
+      "id": "conference-text",
+      "name": "",
+      "autocomplete": null,
+      "type": "textarea",
+      "spellcheck": true
+    },
+    {
+      "id": "account-select",
+      "name": "",
+      "autocomplete": null,
+      "type": "select-one",
+      "spellcheck": true
+    }
+  ],
+  "reduced_motion": {
+    "requested": true,
+    "transition": "0s"
+  },
+  "mobile_focus": [
+    {
+      "id": "close-detail",
+      "tag": "BUTTON",
+      "text": "Voltar à lista",
+      "top": 20,
+      "bottom": 64,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "duration-help-summary",
+      "tag": "SUMMARY",
+      "text": "Como interpretar esta comparação",
+      "top": 350.03125,
+      "bottom": 390.03125,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "missing-evidence-summary",
+      "tag": "SUMMARY",
+      "text": "O que ainda não sabemos (6)",
+      "top": 349.546875,
+      "bottom": 389.546875,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "conference-summary-summary",
+      "tag": "SUMMARY",
+      "text": "Resumo para levar ao CRM",
+      "top": 412.546875,
+      "bottom": 452.546875,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "conference-text",
+      "tag": "TEXTAREA",
+      "text": "ROTEIRO DE CONFERÊNCIA — ATENDIMENTO NÃO REGISTRADO\nOportunidade: BTT6",
+      "top": 535.71875,
+      "bottom": 753.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "auto 1px",
+      "inside": true
+    },
+    {
+      "id": "copy-summary",
+      "tag": "BUTTON",
+      "text": "Copiar resumo de conferência",
+      "top": 347.59375,
+      "bottom": 391.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "deal-facts-summary",
+      "tag": "SUMMARY",
+      "text": "Dados da oportunidade",
+      "top": 414.59375,
+      "bottom": 454.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "model-check-summary",
+      "tag": "SUMMARY",
+      "text": "Política local",
+      "top": 477.59375,
+      "bottom": 517.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "account-select",
+      "tag": "SELECT",
+      "text": "Sem empresaAcme CorporationBetasoloinBetatechBioholdingBioplexBlackzim",
+      "top": 587.59375,
+      "bottom": 631.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "audit-summary",
+      "tag": "SUMMARY",
+      "text": "Histórico e rastreabilidade",
+      "top": 669.765625,
+      "bottom": 709.765625,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "close-detail",
+      "tag": "BUTTON",
+      "text": "Voltar à lista",
+      "top": 20,
+      "bottom": 64,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "duration-help-summary",
+      "tag": "SUMMARY",
+      "text": "Como interpretar esta comparação",
+      "top": 350.03125,
+      "bottom": 390.03125,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "missing-evidence-summary",
+      "tag": "SUMMARY",
+      "text": "O que ainda não sabemos (6)",
+      "top": 349.546875,
+      "bottom": 389.546875,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "conference-summary-summary",
+      "tag": "SUMMARY",
+      "text": "Resumo para levar ao CRM",
+      "top": 412.546875,
+      "bottom": 452.546875,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "conference-text",
+      "tag": "TEXTAREA",
+      "text": "ROTEIRO DE CONFERÊNCIA — ATENDIMENTO NÃO REGISTRADO\nOportunidade: BTT6",
+      "top": 535.71875,
+      "bottom": 753.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "auto 1px",
+      "inside": true
+    },
+    {
+      "id": "copy-summary",
+      "tag": "BUTTON",
+      "text": "Copiar resumo de conferência",
+      "top": 347.59375,
+      "bottom": 391.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "deal-facts-summary",
+      "tag": "SUMMARY",
+      "text": "Dados da oportunidade",
+      "top": 414.59375,
+      "bottom": 454.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "model-check-summary",
+      "tag": "SUMMARY",
+      "text": "Política local",
+      "top": 477.59375,
+      "bottom": 517.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "account-select",
+      "tag": "SELECT",
+      "text": "Sem empresaAcme CorporationBetasoloinBetatechBioholdingBioplexBlackzim",
+      "top": 587.59375,
+      "bottom": 631.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "audit-summary",
+      "tag": "SUMMARY",
+      "text": "Histórico e rastreabilidade",
+      "top": 669.765625,
+      "bottom": 709.765625,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "close-detail",
+      "tag": "BUTTON",
+      "text": "Voltar à lista",
+      "top": 20,
+      "bottom": 64,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "duration-help-summary",
+      "tag": "SUMMARY",
+      "text": "Como interpretar esta comparação",
+      "top": 350.03125,
+      "bottom": 390.03125,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "missing-evidence-summary",
+      "tag": "SUMMARY",
+      "text": "O que ainda não sabemos (6)",
+      "top": 349.546875,
+      "bottom": 389.546875,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "conference-summary-summary",
+      "tag": "SUMMARY",
+      "text": "Resumo para levar ao CRM",
+      "top": 412.546875,
+      "bottom": 452.546875,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "solid 3px",
+      "inside": true
+    },
+    {
+      "id": "conference-text",
+      "tag": "TEXTAREA",
+      "text": "ROTEIRO DE CONFERÊNCIA — ATENDIMENTO NÃO REGISTRADO\nOportunidade: BTT6",
+      "top": 535.71875,
+      "bottom": 753.59375,
+      "headerBottom": 77,
+      "hiddenByHeader": false,
+      "outline": "auto 1px",
+      "inside": true
+    }
+  ],
+  "modal_overscroll": "auto",
+  "mobile_overflow": false
+}

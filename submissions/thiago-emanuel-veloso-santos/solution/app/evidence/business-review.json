@@ -1,0 +1,808 @@
+{
+  "generated_at": "2026-09-22T08:36:46.064705+00:00",
+  "scope": "technical_business_desk_review",
+  "selection": "purposeful coverage of six audited strata and four boundary/value cases; not random",
+  "source_receipts_sha256": "43e89dec6e1f7d50cd185f93de5df0ec858099774ae012b1b808879ff6848dbf",
+  "human_validation": false,
+  "new_model_calls": 0,
+  "total_open": 2089,
+  "queues": {
+    "continue_negotiation_review": 44,
+    "identify_account": 1425,
+    "qualify_prospect": 163,
+    "review_old_negotiation": 457
+  },
+  "agreement": {
+    "development": {
+      "n": 60,
+      "local_correct": 60,
+      "jev_correct": 60,
+      "same": 60
+    },
+    "evaluation": {
+      "n": 60,
+      "local_correct": 60,
+      "jev_correct": 60,
+      "same": 60
+    }
+  },
+  "cases": [
+    {
+      "selection_reason": "Sem conta, negociação recente",
+      "technical_business_review": "Nove dias não demonstram urgência. Identificar a empresa é um requisito de cadastro, não um julgamento sobre a qualidade do cliente.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "DB801ISB",
+        "version": 1,
+        "account": "",
+        "sector": "",
+        "sales_agent": "Elease Gluck",
+        "manager": "Celia Rouche",
+        "region": "West",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Engaging",
+          "account_identified": false,
+          "engage_date": "2017-12-22",
+          "age_days": 9,
+          "product": "MG Special",
+          "catalog_price": 55,
+          "reference_p90_days": 104,
+          "age_exceeds_reference_p90": false,
+          "historical_product_closed_n": 1223,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "incomplete_profile",
+          "next_action": "identify_account"
+        },
+        "priority": 4,
+        "action_label": "Completar cadastro",
+        "qualification_label": "Perfil incompleto",
+        "reasons": [
+          "Identifique a empresa antes de avaliar o perfil da oportunidade.",
+          "9 dias em negociação; referência histórica de 104 dias. Idade não significa inatividade.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "identify_account",
+              "confidence": 0.7,
+              "probabilities": {
+                "human_review": 0.2,
+                "identify_account": 0.76,
+                "qualify_prospect": 0,
+                "review_old_negotiation": 0,
+                "continue_negotiation_review": 0.04
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "incomplete_profile",
+              "confidence": 0.7,
+              "probabilities": {
+                "human_review": 0.2,
+                "discovery_required": 0,
+                "incomplete_profile": 0.77,
+                "negotiation_reviewable": 0.03
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:23:24.782283+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Sem conta, exatamente no P90",
+      "technical_business_review": "A idade igual ao P90 não ultrapassa a referência. A falta de conta prevalece; vincular uma empresa sem confirmação produziria uma classificação apoiada em dado falso.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "197EQMY8",
+        "version": 1,
+        "account": "",
+        "sector": "",
+        "sales_agent": "Kami Bicknell",
+        "manager": "Summer Sewald",
+        "region": "West",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Engaging",
+          "account_identified": false,
+          "engage_date": "2017-09-20",
+          "age_days": 102,
+          "product": "GTX Pro",
+          "catalog_price": 4821,
+          "reference_p90_days": 102,
+          "age_exceeds_reference_p90": false,
+          "historical_product_closed_n": 1147,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "incomplete_profile",
+          "next_action": "identify_account"
+        },
+        "priority": 4,
+        "action_label": "Completar cadastro",
+        "qualification_label": "Perfil incompleto",
+        "reasons": [
+          "Identifique a empresa antes de avaliar o perfil da oportunidade.",
+          "102 dias em negociação; referência histórica de 102 dias. Idade não significa inatividade.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "identify_account",
+              "confidence": 0.74,
+              "probabilities": {
+                "human_review": 0.18,
+                "identify_account": 0.8,
+                "qualify_prospect": 0,
+                "review_old_negotiation": 0,
+                "continue_negotiation_review": 0.02
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "incomplete_profile",
+              "confidence": 0.65,
+              "probabilities": {
+                "human_review": 0.24,
+                "discovery_required": 0,
+                "incomplete_profile": 0.74,
+                "negotiation_reviewable": 0.02
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:23:27.976680+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Sem conta, longa duração e produto raro",
+      "technical_business_review": "O preço alto não prova potencial de receita. A referência é global por falta de histórico suficiente do produto. Completar cadastro sozinho não resolve a necessidade de confirmar se a negociação continua ativa.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "A7SA2L21",
+        "version": 1,
+        "account": "",
+        "sector": "",
+        "sales_agent": "Elease Gluck",
+        "manager": "Celia Rouche",
+        "region": "West",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Engaging",
+          "account_identified": false,
+          "engage_date": "2017-01-30",
+          "age_days": 335,
+          "product": "GTK 500",
+          "catalog_price": 26768,
+          "reference_p90_days": 104,
+          "age_exceeds_reference_p90": true,
+          "historical_product_closed_n": 25,
+          "duration_reference_scope": "global_fallback",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "incomplete_profile",
+          "next_action": "identify_account"
+        },
+        "priority": 4,
+        "action_label": "Completar cadastro",
+        "qualification_label": "Perfil incompleto",
+        "reasons": [
+          "Identifique a empresa antes de avaliar o perfil da oportunidade.",
+          "335 dias em negociação; referência histórica de 104 dias. Idade não significa inatividade.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "identify_account",
+              "confidence": 0.5,
+              "probabilities": {
+                "human_review": 0.23,
+                "identify_account": 0.6,
+                "qualify_prospect": 0,
+                "review_old_negotiation": 0.17,
+                "continue_negotiation_review": 0
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "incomplete_profile",
+              "confidence": 0.73,
+              "probabilities": {
+                "human_review": 0.17,
+                "discovery_required": 0,
+                "incomplete_profile": 0.8,
+                "negotiation_reviewable": 0.02
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:23:35.136064+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Sem conta, prospecção",
+      "technical_business_review": "Não existe data de início para medir duração. Primeiro confirmar empresa e responsável, sem selecionar uma conta apenas para liberar a qualificação.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "0E8D6TCQ",
+        "version": 1,
+        "account": "",
+        "sector": "",
+        "sales_agent": "Moses Frase",
+        "manager": "Dustin Brinkmann",
+        "region": "Central",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Prospecting",
+          "account_identified": false,
+          "engage_date": null,
+          "age_days": null,
+          "product": "GTX Plus Basic",
+          "catalog_price": 1096,
+          "reference_p90_days": 105,
+          "age_exceeds_reference_p90": false,
+          "historical_product_closed_n": 1051,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "incomplete_profile",
+          "next_action": "identify_account"
+        },
+        "priority": 4,
+        "action_label": "Completar cadastro",
+        "qualification_label": "Perfil incompleto",
+        "reasons": [
+          "Identifique a empresa antes de avaliar o perfil da oportunidade.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "identify_account",
+              "confidence": 0.83,
+              "probabilities": {
+                "human_review": 0.12,
+                "identify_account": 0.86,
+                "qualify_prospect": 0.02,
+                "review_old_negotiation": 0,
+                "continue_negotiation_review": 0
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "incomplete_profile",
+              "confidence": 0.94,
+              "probabilities": {
+                "human_review": 0.04,
+                "discovery_required": 0.01,
+                "incomplete_profile": 0.95,
+                "negotiation_reviewable": 0
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:25:37.397070+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Com conta, prospecção de maior preço",
+      "technical_business_review": "A empresa identificada não confirma necessidade nem orçamento. O desempate por preço favorece este produto, mas não comprova melhor retorno por hora do vendedor.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "DDHNCZMO",
+        "version": 1,
+        "account": "Konex",
+        "sector": "technolgy",
+        "sales_agent": "Niesha Huffines",
+        "manager": "Melvin Marxen",
+        "region": "Central",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Prospecting",
+          "account_identified": true,
+          "engage_date": null,
+          "age_days": null,
+          "product": "GTX Plus Pro",
+          "catalog_price": 5482,
+          "reference_p90_days": 103,
+          "age_exceeds_reference_p90": false,
+          "historical_product_closed_n": 745,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "discovery_required",
+          "next_action": "qualify_prospect"
+        },
+        "priority": 2,
+        "action_label": "Qualificar prospecção",
+        "qualification_label": "Qualificação pendente",
+        "reasons": [
+          "Levante a necessidade, o interlocutor e o próximo passo desta prospecção.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "qualify_prospect",
+              "confidence": 0.92,
+              "probabilities": {
+                "human_review": 0.06,
+                "identify_account": 0,
+                "qualify_prospect": 0.94,
+                "review_old_negotiation": 0,
+                "continue_negotiation_review": 0
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "discovery_required",
+              "confidence": 0.96,
+              "probabilities": {
+                "human_review": 0.03,
+                "discovery_required": 0.97,
+                "incomplete_profile": 0,
+                "negotiation_reviewable": 0
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:26:02.390884+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Com conta, prospecção de menor preço",
+      "technical_business_review": "O baixo preço não justifica descartar o cliente. Sem quantidade, recorrência e esforço comercial, não é possível estimar o valor total da oportunidade.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "E6DGJSDW",
+        "version": 1,
+        "account": "Green-Plus",
+        "sector": "services",
+        "sales_agent": "Anna Snelling",
+        "manager": "Dustin Brinkmann",
+        "region": "Central",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Prospecting",
+          "account_identified": true,
+          "engage_date": null,
+          "age_days": null,
+          "product": "MG Special",
+          "catalog_price": 55,
+          "reference_p90_days": 104,
+          "age_exceeds_reference_p90": false,
+          "historical_product_closed_n": 1223,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "discovery_required",
+          "next_action": "qualify_prospect"
+        },
+        "priority": 2,
+        "action_label": "Qualificar prospecção",
+        "qualification_label": "Qualificação pendente",
+        "reasons": [
+          "Levante a necessidade, o interlocutor e o próximo passo desta prospecção.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "qualify_prospect",
+              "confidence": 0.94,
+              "probabilities": {
+                "human_review": 0.04,
+                "identify_account": 0,
+                "qualify_prospect": 0.96,
+                "review_old_negotiation": 0,
+                "continue_negotiation_review": 0
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "discovery_required",
+              "confidence": 0.94,
+              "probabilities": {
+                "human_review": 0.04,
+                "discovery_required": 0.96,
+                "incomplete_profile": 0,
+                "negotiation_reviewable": 0
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:25:52.559550+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Com conta, negociação recente",
+      "technical_business_review": "Estar abaixo da referência não prova que o negócio está saudável. Confirmar compromisso e data do próximo contato continua necessário.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "K9KGXL2E",
+        "version": 1,
+        "account": "Lexiqvolax",
+        "sector": "medical",
+        "sales_agent": "Markita Hansen",
+        "manager": "Celia Rouche",
+        "region": "West",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Engaging",
+          "account_identified": true,
+          "engage_date": "2017-12-13",
+          "age_days": 18,
+          "product": "MG Advanced",
+          "catalog_price": 3393,
+          "reference_p90_days": 104,
+          "age_exceeds_reference_p90": false,
+          "historical_product_closed_n": 1084,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "negotiation_reviewable",
+          "next_action": "continue_negotiation_review"
+        },
+        "priority": 3,
+        "action_label": "Definir próximo passo",
+        "qualification_label": "Negociação para revisar",
+        "reasons": [
+          "Confirme o próximo passo comercial desta negociação.",
+          "18 dias em negociação; referência histórica de 104 dias. Idade não significa inatividade.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "continue_negotiation_review",
+              "confidence": 0.88,
+              "probabilities": {
+                "human_review": 0.09,
+                "identify_account": 0,
+                "qualify_prospect": 0,
+                "review_old_negotiation": 0,
+                "continue_negotiation_review": 0.91
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "negotiation_reviewable",
+              "confidence": 0.88,
+              "probabilities": {
+                "human_review": 0.08,
+                "discovery_required": 0,
+                "incomplete_profile": 0.01,
+                "negotiation_reviewable": 0.91
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:23:54.737356+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Com conta, perto do P90",
+      "technical_business_review": "Dois dias abaixo do limite não estabelecem uma diferença comercial relevante. O limite orienta uma fila, mas não é um prazo prometido pelo cliente.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "PSMWYTMB",
+        "version": 1,
+        "account": "Toughzap",
+        "sector": "retail",
+        "sales_agent": "Boris Faz",
+        "manager": "Rocco Neubert",
+        "region": "East",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Engaging",
+          "account_identified": true,
+          "engage_date": "2017-09-20",
+          "age_days": 102,
+          "product": "MG Advanced",
+          "catalog_price": 3393,
+          "reference_p90_days": 104,
+          "age_exceeds_reference_p90": false,
+          "historical_product_closed_n": 1084,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "negotiation_reviewable",
+          "next_action": "continue_negotiation_review"
+        },
+        "priority": 3,
+        "action_label": "Definir próximo passo",
+        "qualification_label": "Negociação para revisar",
+        "reasons": [
+          "Confirme o próximo passo comercial desta negociação.",
+          "102 dias em negociação; referência histórica de 104 dias. Idade não significa inatividade.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "continue_negotiation_review",
+              "confidence": 0.88,
+              "probabilities": {
+                "human_review": 0.09,
+                "identify_account": 0,
+                "qualify_prospect": 0,
+                "review_old_negotiation": 0,
+                "continue_negotiation_review": 0.91
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "negotiation_reviewable",
+              "confidence": 0.85,
+              "probabilities": {
+                "human_review": 0.1,
+                "discovery_required": 0,
+                "incomplete_profile": 0.01,
+                "negotiation_reviewable": 0.89
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:23:53.375224+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Com conta, acima do P90",
+      "technical_business_review": "A ultrapassagem pede checagem de status e obstáculos. Não autoriza tratar o cliente como perdido ou impor urgência comercial.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "7GDSUY9K",
+        "version": 1,
+        "account": "Konmatfix",
+        "sector": "marketing",
+        "sales_agent": "Hayden Neloms",
+        "manager": "Celia Rouche",
+        "region": "West",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Engaging",
+          "account_identified": true,
+          "engage_date": "2017-09-05",
+          "age_days": 117,
+          "product": "GTX Plus Pro",
+          "catalog_price": 5482,
+          "reference_p90_days": 103,
+          "age_exceeds_reference_p90": true,
+          "historical_product_closed_n": 745,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "negotiation_reviewable",
+          "next_action": "review_old_negotiation"
+        },
+        "priority": 1,
+        "action_label": "Revisar negociação",
+        "qualification_label": "Negociação para revisar",
+        "reasons": [
+          "Confirme o status: a duração ultrapassa a referência histórica do produto.",
+          "117 dias em negociação; referência histórica de 103 dias. Idade não significa inatividade.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "review_old_negotiation",
+              "confidence": 0.91,
+              "probabilities": {
+                "human_review": 0.07,
+                "identify_account": 0,
+                "qualify_prospect": 0,
+                "review_old_negotiation": 0.93,
+                "continue_negotiation_review": 0
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "negotiation_reviewable",
+              "confidence": 0.86,
+              "probabilities": {
+                "human_review": 0.1,
+                "discovery_required": 0,
+                "incomplete_profile": 0.01,
+                "negotiation_reviewable": 0.89
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:25:13.237265+00:00",
+      "new_inference": false
+    },
+    {
+      "selection_reason": "Com conta, duração elevada",
+      "technical_business_review": "A regra coloca negócios antigos antes dos demais. Isso pode concentrar esforço em negócios sem atividade; a base não permite comprovar nem refutar esse risco.",
+      "human_validation": "pending",
+      "opportunity": {
+        "id": "QP006VDE",
+        "version": 1,
+        "account": "Domzoom",
+        "sector": "entertainment",
+        "sales_agent": "Markita Hansen",
+        "manager": "Celia Rouche",
+        "region": "West",
+        "state": {
+          "as_of": "2017-12-31",
+          "stage": "Engaging",
+          "account_identified": true,
+          "engage_date": "2017-05-01",
+          "age_days": 244,
+          "product": "MG Advanced",
+          "catalog_price": 3393,
+          "reference_p90_days": 104,
+          "age_exceeds_reference_p90": true,
+          "historical_product_closed_n": 1084,
+          "duration_reference_scope": "product",
+          "unavailable": [
+            "need",
+            "budget",
+            "authority",
+            "intent",
+            "last_contact",
+            "next_contact_date"
+          ]
+        },
+        "decision": {
+          "qualification": "negotiation_reviewable",
+          "next_action": "review_old_negotiation"
+        },
+        "priority": 1,
+        "action_label": "Revisar negociação",
+        "qualification_label": "Negociação para revisar",
+        "reasons": [
+          "Confirme o status: a duração ultrapassa a referência histórica do produto.",
+          "244 dias em negociação; referência histórica de 104 dias. Idade não significa inatividade.",
+          "Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base."
+        ],
+        "classification": {
+          "model": "typesafe-ai/jev",
+          "answers": {
+            "next_action": {
+              "type": "choice",
+              "choice": "review_old_negotiation",
+              "confidence": 0.93,
+              "probabilities": {
+                "human_review": 0.05,
+                "identify_account": 0,
+                "qualify_prospect": 0,
+                "review_old_negotiation": 0.95,
+                "continue_negotiation_review": 0
+              }
+            },
+            "qualification": {
+              "type": "choice",
+              "choice": "negotiation_reviewable",
+              "confidence": 0.86,
+              "probabilities": {
+                "human_review": 0.09,
+                "discovery_required": 0,
+                "incomplete_profile": 0.01,
+                "negotiation_reviewable": 0.9
+              }
+            }
+          }
+        },
+        "status": "classified"
+      },
+      "receipt_timestamp": "2026-09-22T06:25:10.842085+00:00",
+      "new_inference": false
+    }
+  ]
+}

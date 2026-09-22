@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-09-22T21:05:54.379Z",
+  "method": "Controlled fetch fixture for delayed saves, polling and clipboard; real app for rendering, audit and responsive checks. No model calls or business-data writes.",
+  "checks": [
+    {
+      "name": "Delayed save keeps origin and does not confirm a different opportunity",
+      "pass": true,
+      "observed": {
+        "current": "197EQMY8 · versão 1",
+        "detail": "",
+        "formCount": 1,
+        "global": "DB801ISB: Conta salva. A nova versão está registrada no histórico.",
+        "hidden": true
+      }
+    },
+    {
+      "name": "Summary focus survives classification polling",
+      "pass": true,
+      "observed": {
+        "focus": "deal-facts-summary",
+        "open": true,
+        "reads": 5
+      }
+    },
+    {
+      "name": "Interrupted attempt is shown without invented duration",
+      "pass": true
+    },
+    {
+      "name": "Nested audit summary retains focus and expansion during polling",
+      "pass": true,
+      "observed": {
+        "auditReads": 12,
+        "focus": "attempt-fixture-job-1-summary",
+        "open": true
+      }
+    },
+    {
+      "name": "Copy exports a truthful handoff for the selected opportunity",
+      "pass": true
+    },
+    {
+      "name": "Clipboard denial selects the text for manual copy",
+      "pass": true,
+      "observed": {
+        "focus": "conference-text",
+        "length": 1464,
+        "message": "197EQMY8: A cópia automática não está disponível. Selecione e copie o texto do resumo manualmente.",
+        "selected": 1464
+      }
+    },
+    {
+      "name": "Real page has one account form before the explanation and no horizontal overflow",
+      "pass": true,
+      "observed": {
+        "formCount": 1,
+        "overflow": false,
+        "sectionOrder": [
+          "account-form",
+          "recommendation-title"
+        ]
+      }
+    },
+    {
+      "name": "320px real mobile opens focused detail with no horizontal overflow",
+      "pass": true,
+      "observed": {
+        "dialog": true,
+        "dialogWidth": 304,
+        "focused": "detail-title",
+        "formWidth": 217,
+        "overflow": false,
+        "width": 320
+      }
+    },
+    {
+      "name": "Real server serves the expanded audit contract to the UI",
+      "pass": true
+    },
+    {
+      "name": "Mobile summary remains read-only, contextual and fits the dialog",
+      "pass": true,
+      "observed": {
+        "overflow": false,
+        "readonly": true,
+        "text": true
+      }
+    }
+  ],
+  "consoleErrors": []
+}

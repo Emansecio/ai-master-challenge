@@ -1,0 +1,2646 @@
+{
+  "full": [
+    {
+      "case_id": "NGTVHTFH",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "NGTVHTFH",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "P8QXRXMR",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "P8QXRXMR",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "WV2YBM8V",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "WV2YBM8V",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "4S17VJ7O",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "4S17VJ7O",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "HWOBBZWQ",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "HWOBBZWQ",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "DYYJW46L",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "DYYJW46L",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "VVE9HGLD",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "VVE9HGLD",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "EP5QRHID",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "EP5QRHID",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "NX28C8EI",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "NX28C8EI",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "2FM8HJDM",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "2FM8HJDM",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "SMP2K39G",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "SMP2K39G",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "NRK892VX",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "NRK892VX",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "6JBM1ZKO",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "6JBM1ZKO",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "O1SCOU11",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "O1SCOU11",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "GL2FM1RM",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "GL2FM1RM",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "RS31U03Y",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "RS31U03Y",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "DB801ISB",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "DB801ISB",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "LZ3B174J",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "LZ3B174J",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "197EQMY8",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "197EQMY8",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "BZGJ44FH",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "BZGJ44FH",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "S9JXWIBD",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "S9JXWIBD",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "ZVAZKWF3",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "ZVAZKWF3",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "81G840FM",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "81G840FM",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "A8NDGVJE",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "A8NDGVJE",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "M9V8824W",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "M9V8824W",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "FCBSZ6FJ",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "FCBSZ6FJ",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "OBC504T8",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "OBC504T8",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "IQMW1VDP",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "IQMW1VDP",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "IVJP36UT",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "IVJP36UT",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "9Y85N0W5",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "9Y85N0W5",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "YRTI0EKE",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "YRTI0EKE",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "OJ42ZCHR",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "OJ42ZCHR",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "0AQGBN7B",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "0AQGBN7B",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "A7SA2L21",
+      "question": "qualification",
+      "tokens": 329,
+      "rejected": true
+    },
+    {
+      "case_id": "A7SA2L21",
+      "question": "next_action",
+      "tokens": 357,
+      "rejected": true
+    },
+    {
+      "case_id": "GE4QGOCI",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "GE4QGOCI",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "ILR33OAV",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "ILR33OAV",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "KTWP0SMT",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "KTWP0SMT",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "EP9JNNF1",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "EP9JNNF1",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "8V5OCDHN",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "8V5OCDHN",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "5P4O1IU6",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "5P4O1IU6",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "GXIVJQPG",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "GXIVJQPG",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "RYWETTBK",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "RYWETTBK",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "4ZQTMS3Z",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "4ZQTMS3Z",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "WJO52I18",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "WJO52I18",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "I5VHXAWW",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "I5VHXAWW",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "4SOUOUKH",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "4SOUOUKH",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "TOJ902PF",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "TOJ902PF",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "SQ71BWHG",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "SQ71BWHG",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "YMWG4Z3S",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "YMWG4Z3S",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "4D0K5T7T",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "4D0K5T7T",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "FZWU2I30",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "FZWU2I30",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "MG1YUTUE",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "MG1YUTUE",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "NXXKM7C7",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "NXXKM7C7",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "2DY9U1V7",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "2DY9U1V7",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "0N11U6L3",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "0N11U6L3",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "7XRWWM0X",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "7XRWWM0X",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "PSMWYTMB",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "PSMWYTMB",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "K9KGXL2E",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "K9KGXL2E",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "XSEG5T4H",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "XSEG5T4H",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "J1G2SZKD",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "J1G2SZKD",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "SZS2IPM3",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "SZS2IPM3",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "FHPRER2D",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "FHPRER2D",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "YLK0MRJ3",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "YLK0MRJ3",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "041Q1IZL",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "041Q1IZL",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "3PVNGGBX",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "3PVNGGBX",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "UIX6X6R3",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "UIX6X6R3",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "1UW6ILCH",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "1UW6ILCH",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "PO158L29",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "PO158L29",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "ALZNZ666",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "ALZNZ666",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "2WDSO6PG",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "2WDSO6PG",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "5653N8BM",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "5653N8BM",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "33BMGHPN",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "33BMGHPN",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "OT5G3M9A",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "OT5G3M9A",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "LORMJLTE",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "LORMJLTE",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "QP006VDE",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "QP006VDE",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "7GDSUY9K",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "7GDSUY9K",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "VPG5E490",
+      "question": "qualification",
+      "tokens": 326,
+      "rejected": true
+    },
+    {
+      "case_id": "VPG5E490",
+      "question": "next_action",
+      "tokens": 354,
+      "rejected": true
+    },
+    {
+      "case_id": "RYNZ2WOK",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "RYNZ2WOK",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "BJJQSJD8",
+      "question": "qualification",
+      "tokens": 328,
+      "rejected": true
+    },
+    {
+      "case_id": "BJJQSJD8",
+      "question": "next_action",
+      "tokens": 356,
+      "rejected": true
+    },
+    {
+      "case_id": "CUV49MUR",
+      "question": "qualification",
+      "tokens": 327,
+      "rejected": true
+    },
+    {
+      "case_id": "CUV49MUR",
+      "question": "next_action",
+      "tokens": 355,
+      "rejected": true
+    },
+    {
+      "case_id": "HZVVOITE",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "HZVVOITE",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "5P4OCP0Q",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "5P4OCP0Q",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "XVQ3OA99",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "XVQ3OA99",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "HUG2KAHE",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "HUG2KAHE",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "F0K8UDEG",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "F0K8UDEG",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "5697WKA6",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "5697WKA6",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "6SLKZ8FI",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "6SLKZ8FI",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "H046CU4Z",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "H046CU4Z",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "6KHIXTAD",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "6KHIXTAD",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "B5H6M7AP",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "B5H6M7AP",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "OA3RDG12",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "OA3RDG12",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "EG3X1ACF",
+      "question": "qualification",
+      "tokens": 325,
+      "rejected": true
+    },
+    {
+      "case_id": "EG3X1ACF",
+      "question": "next_action",
+      "tokens": 353,
+      "rejected": true
+    },
+    {
+      "case_id": "18IUIUK0",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "18IUIUK0",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "SPTF1MZ4",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "SPTF1MZ4",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "G4B3UCWQ",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "G4B3UCWQ",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "0E8D6TCQ",
+      "question": "qualification",
+      "tokens": 325,
+      "rejected": true
+    },
+    {
+      "case_id": "0E8D6TCQ",
+      "question": "next_action",
+      "tokens": 353,
+      "rejected": true
+    },
+    {
+      "case_id": "DX1M0XF0",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "DX1M0XF0",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "465ZW6J2",
+      "question": "qualification",
+      "tokens": 325,
+      "rejected": true
+    },
+    {
+      "case_id": "465ZW6J2",
+      "question": "next_action",
+      "tokens": 353,
+      "rejected": true
+    },
+    {
+      "case_id": "BKI3OLP8",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "BKI3OLP8",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "2WTPSQTN",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "2WTPSQTN",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "YKBJP191",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "YKBJP191",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "ZGTCQT1A",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "ZGTCQT1A",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "A8NXNY0M",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "A8NXNY0M",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "FMRVHL9O",
+      "question": "qualification",
+      "tokens": 325,
+      "rejected": true
+    },
+    {
+      "case_id": "FMRVHL9O",
+      "question": "next_action",
+      "tokens": 353,
+      "rejected": true
+    },
+    {
+      "case_id": "BUOI3TBI",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "BUOI3TBI",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "Q9UWOC28",
+      "question": "qualification",
+      "tokens": 325,
+      "rejected": true
+    },
+    {
+      "case_id": "Q9UWOC28",
+      "question": "next_action",
+      "tokens": 353,
+      "rejected": true
+    },
+    {
+      "case_id": "SYP74C5W",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "SYP74C5W",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "OAMIMSUU",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "OAMIMSUU",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "AP74NF6M",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "AP74NF6M",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "TLZGG7G5",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "TLZGG7G5",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "ARBTXSEH",
+      "question": "qualification",
+      "tokens": 325,
+      "rejected": true
+    },
+    {
+      "case_id": "ARBTXSEH",
+      "question": "next_action",
+      "tokens": 353,
+      "rejected": true
+    },
+    {
+      "case_id": "E6DGJSDW",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "E6DGJSDW",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "CAONNFXN",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "CAONNFXN",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "2TI0MAKP",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "2TI0MAKP",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "J5IXJWVU",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "J5IXJWVU",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "DDHNCZMO",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "DDHNCZMO",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "BJE7KCZ1",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "BJE7KCZ1",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "YBWUG6QP",
+      "question": "qualification",
+      "tokens": 324,
+      "rejected": true
+    },
+    {
+      "case_id": "YBWUG6QP",
+      "question": "next_action",
+      "tokens": 352,
+      "rejected": true
+    },
+    {
+      "case_id": "ZVO432VF",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "ZVO432VF",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    },
+    {
+      "case_id": "UMD1BA4S",
+      "question": "qualification",
+      "tokens": 323,
+      "rejected": true
+    },
+    {
+      "case_id": "UMD1BA4S",
+      "question": "next_action",
+      "tokens": 351,
+      "rejected": true
+    }
+  ],
+  "compact": [
+    {
+      "case_id": "NGTVHTFH",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "NGTVHTFH",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "P8QXRXMR",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "P8QXRXMR",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "WV2YBM8V",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "WV2YBM8V",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "4S17VJ7O",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "4S17VJ7O",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "HWOBBZWQ",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "HWOBBZWQ",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "DYYJW46L",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "DYYJW46L",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "VVE9HGLD",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "VVE9HGLD",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "EP5QRHID",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "EP5QRHID",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "NX28C8EI",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "NX28C8EI",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "2FM8HJDM",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "2FM8HJDM",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "SMP2K39G",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "SMP2K39G",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "NRK892VX",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "NRK892VX",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "6JBM1ZKO",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "6JBM1ZKO",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "O1SCOU11",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "O1SCOU11",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "GL2FM1RM",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "GL2FM1RM",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "RS31U03Y",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "RS31U03Y",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "DB801ISB",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "DB801ISB",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "LZ3B174J",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "LZ3B174J",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "197EQMY8",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "197EQMY8",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "BZGJ44FH",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "BZGJ44FH",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "S9JXWIBD",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "S9JXWIBD",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "ZVAZKWF3",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "ZVAZKWF3",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "81G840FM",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "81G840FM",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "A8NDGVJE",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "A8NDGVJE",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "M9V8824W",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "M9V8824W",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "FCBSZ6FJ",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "FCBSZ6FJ",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "OBC504T8",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "OBC504T8",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "IQMW1VDP",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "IQMW1VDP",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "IVJP36UT",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "IVJP36UT",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "9Y85N0W5",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "9Y85N0W5",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "YRTI0EKE",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "YRTI0EKE",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "OJ42ZCHR",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "OJ42ZCHR",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "0AQGBN7B",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "0AQGBN7B",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "A7SA2L21",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "A7SA2L21",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "GE4QGOCI",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "GE4QGOCI",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "ILR33OAV",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "ILR33OAV",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "KTWP0SMT",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "KTWP0SMT",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "EP9JNNF1",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "EP9JNNF1",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "8V5OCDHN",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "8V5OCDHN",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "5P4O1IU6",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "5P4O1IU6",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "GXIVJQPG",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "GXIVJQPG",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "RYWETTBK",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "RYWETTBK",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "4ZQTMS3Z",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "4ZQTMS3Z",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "WJO52I18",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "WJO52I18",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "I5VHXAWW",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "I5VHXAWW",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "4SOUOUKH",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "4SOUOUKH",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "TOJ902PF",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "TOJ902PF",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "SQ71BWHG",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "SQ71BWHG",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "YMWG4Z3S",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "YMWG4Z3S",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "4D0K5T7T",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "4D0K5T7T",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "FZWU2I30",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "FZWU2I30",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "MG1YUTUE",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "MG1YUTUE",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "NXXKM7C7",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "NXXKM7C7",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "2DY9U1V7",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "2DY9U1V7",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "0N11U6L3",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "0N11U6L3",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "7XRWWM0X",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "7XRWWM0X",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "PSMWYTMB",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "PSMWYTMB",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "K9KGXL2E",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "K9KGXL2E",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "XSEG5T4H",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "XSEG5T4H",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "J1G2SZKD",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "J1G2SZKD",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "SZS2IPM3",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "SZS2IPM3",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "FHPRER2D",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "FHPRER2D",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "YLK0MRJ3",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "YLK0MRJ3",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "041Q1IZL",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "041Q1IZL",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "3PVNGGBX",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "3PVNGGBX",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "UIX6X6R3",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "UIX6X6R3",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "1UW6ILCH",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "1UW6ILCH",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "PO158L29",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "PO158L29",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "ALZNZ666",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "ALZNZ666",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "2WDSO6PG",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "2WDSO6PG",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "5653N8BM",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "5653N8BM",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "33BMGHPN",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "33BMGHPN",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "OT5G3M9A",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "OT5G3M9A",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "LORMJLTE",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "LORMJLTE",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "QP006VDE",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "QP006VDE",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "7GDSUY9K",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "7GDSUY9K",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "VPG5E490",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "VPG5E490",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "RYNZ2WOK",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "RYNZ2WOK",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "BJJQSJD8",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "BJJQSJD8",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "CUV49MUR",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "CUV49MUR",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "HZVVOITE",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "HZVVOITE",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "5P4OCP0Q",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "5P4OCP0Q",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "XVQ3OA99",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "XVQ3OA99",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "HUG2KAHE",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "HUG2KAHE",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "F0K8UDEG",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "F0K8UDEG",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "5697WKA6",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "5697WKA6",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "6SLKZ8FI",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "6SLKZ8FI",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "H046CU4Z",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "H046CU4Z",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "6KHIXTAD",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "6KHIXTAD",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "B5H6M7AP",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "B5H6M7AP",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "OA3RDG12",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "OA3RDG12",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "EG3X1ACF",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "EG3X1ACF",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "18IUIUK0",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "18IUIUK0",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "SPTF1MZ4",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "SPTF1MZ4",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "G4B3UCWQ",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "G4B3UCWQ",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "0E8D6TCQ",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "0E8D6TCQ",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "DX1M0XF0",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "DX1M0XF0",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "465ZW6J2",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "465ZW6J2",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "BKI3OLP8",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "BKI3OLP8",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "2WTPSQTN",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "2WTPSQTN",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "YKBJP191",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "YKBJP191",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "ZGTCQT1A",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "ZGTCQT1A",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "A8NXNY0M",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "A8NXNY0M",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "FMRVHL9O",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "FMRVHL9O",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "BUOI3TBI",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "BUOI3TBI",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "Q9UWOC28",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "Q9UWOC28",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "SYP74C5W",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "SYP74C5W",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "OAMIMSUU",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "OAMIMSUU",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "AP74NF6M",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "AP74NF6M",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "TLZGG7G5",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "TLZGG7G5",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "ARBTXSEH",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "ARBTXSEH",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "E6DGJSDW",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "E6DGJSDW",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "CAONNFXN",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "CAONNFXN",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "2TI0MAKP",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "2TI0MAKP",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "J5IXJWVU",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "J5IXJWVU",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "DDHNCZMO",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "DDHNCZMO",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "BJE7KCZ1",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "BJE7KCZ1",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "YBWUG6QP",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "YBWUG6QP",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "ZVO432VF",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "ZVO432VF",
+      "question": "next_action",
+      "tokens": 94
+    },
+    {
+      "case_id": "UMD1BA4S",
+      "question": "qualification",
+      "tokens": 73
+    },
+    {
+      "case_id": "UMD1BA4S",
+      "question": "next_action",
+      "tokens": 94
+    }
+  ]
+}

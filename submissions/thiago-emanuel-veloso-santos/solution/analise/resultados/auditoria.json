@@ -1,0 +1,714 @@
+{
+  "provenance": {
+    "source": "https://www.kaggle.com/datasets/agungpambudi/crm-sales-predictive-analytics",
+    "download_endpoint": "https://www.kaggle.com/api/v1/datasets/download/agungpambudi/crm-sales-predictive-analytics",
+    "download_date_local": "2026-09-22",
+    "zip_sha256": "74d535826330b616758ebb6bb393abf701a5126364a72fbe71003cb6a7a87a9c",
+    "file_sha256": {
+      "accounts.csv": "e5242324768a563fc632cddfed49a29acbbf2892b8a3c6453cc9650de9ae0358",
+      "products.csv": "7c1c8cbbdb6d4c286902e1985eeb529a36366d6a43f43cd4a93c4b1da2a6eb84",
+      "sales_teams.csv": "aeff1272ebe196f5a27e3fc0578aa27abf48ed9ae461aa344fb95990e5ad8bd1",
+      "sales_pipeline.csv": "825ce8f6c32d4009548b468df3173d55a46fd73f2531f532c5459371dc52adf2",
+      "metadata.csv": "22b34e498d07e3d7f322afdbf81d70a5dc0a389792944e50ca2af86a3597f0af"
+    },
+    "as_of_assumption": "2017-12-31",
+    "python": "3.12.14",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5"
+  },
+  "tables": {
+    "accounts.csv": {
+      "rows": 85,
+      "columns": [
+        "account",
+        "sector",
+        "year_established",
+        "revenue",
+        "employees",
+        "office_location",
+        "subsidiary_of"
+      ],
+      "missing": {
+        "account": 0,
+        "sector": 0,
+        "year_established": 0,
+        "revenue": 0,
+        "employees": 0,
+        "office_location": 0,
+        "subsidiary_of": 70
+      },
+      "duplicate_rows": 0
+    },
+    "products.csv": {
+      "rows": 7,
+      "columns": [
+        "product",
+        "series",
+        "sales_price"
+      ],
+      "missing": {
+        "product": 0,
+        "series": 0,
+        "sales_price": 0
+      },
+      "duplicate_rows": 0
+    },
+    "sales_teams.csv": {
+      "rows": 35,
+      "columns": [
+        "sales_agent",
+        "manager",
+        "regional_office"
+      ],
+      "missing": {
+        "sales_agent": 0,
+        "manager": 0,
+        "regional_office": 0
+      },
+      "duplicate_rows": 0
+    },
+    "sales_pipeline.csv": {
+      "rows": 8800,
+      "columns": [
+        "opportunity_id",
+        "sales_agent",
+        "product",
+        "account",
+        "deal_stage",
+        "engage_date",
+        "close_date",
+        "close_value"
+      ],
+      "missing": {
+        "opportunity_id": 0,
+        "sales_agent": 0,
+        "product": 0,
+        "account": 1425,
+        "deal_stage": 0,
+        "engage_date": 500,
+        "close_date": 2089,
+        "close_value": 2089
+      },
+      "duplicate_rows": 0
+    },
+    "metadata.csv": {
+      "rows": 21,
+      "columns": [
+        "Table",
+        "Field",
+        "Description"
+      ],
+      "missing": {
+        "Table": 0,
+        "Field": 0,
+        "Description": 0
+      },
+      "duplicate_rows": 0
+    }
+  },
+  "stage_counts": {
+    "Won": 4238,
+    "Lost": 2473,
+    "Engaging": 1589,
+    "Prospecting": 500
+  },
+  "open_by_stage_account": [
+    {
+      "deal_stage": "Engaging",
+      "account_known": false,
+      "n": 1088
+    },
+    {
+      "deal_stage": "Engaging",
+      "account_known": true,
+      "n": 501
+    },
+    {
+      "deal_stage": "Prospecting",
+      "account_known": false,
+      "n": 337
+    },
+    {
+      "deal_stage": "Prospecting",
+      "account_known": true,
+      "n": 163
+    }
+  ],
+  "alias_records": 1480,
+  "closed_product_history": {
+    "GTK 500": {
+      "n": 25,
+      "wins": 15,
+      "win_rate": 0.6,
+      "wilson95": [
+        0.40739127785127344,
+        0.7659694233580909
+      ]
+    },
+    "GTX Basic": {
+      "n": 1436,
+      "wins": 915,
+      "win_rate": 0.6371866295264624,
+      "wilson95": [
+        0.6119823645108383,
+        0.6616588471335537
+      ]
+    },
+    "GTX Plus Basic": {
+      "n": 1051,
+      "wins": 653,
+      "win_rate": 0.621313035204567,
+      "wilson95": [
+        0.5915955264533368,
+        0.6501469304236009
+      ]
+    },
+    "GTX Plus Pro": {
+      "n": 745,
+      "wins": 479,
+      "win_rate": 0.6429530201342282,
+      "wilson95": [
+        0.6078945058183058,
+        0.6765448202020434
+      ]
+    },
+    "GTX Pro": {
+      "n": 1147,
+      "wins": 729,
+      "win_rate": 0.6355710549258936,
+      "wilson95": [
+        0.6073089367980922,
+        0.6629280793125523
+      ]
+    },
+    "MG Advanced": {
+      "n": 1084,
+      "wins": 654,
+      "win_rate": 0.6033210332103321,
+      "wilson95": [
+        0.5738824015850966,
+        0.6320299297690272
+      ]
+    },
+    "MG Special": {
+      "n": 1223,
+      "wins": 793,
+      "win_rate": 0.6484055600981193,
+      "wilson95": [
+        0.6212186799486554,
+        0.6746630377889888
+      ]
+    }
+  },
+  "closed_sector_history": {
+    "employment": {
+      "n": 286,
+      "wins": 179,
+      "win_rate": 0.6258741258741258,
+      "wilson95": [
+        0.5684714482474131,
+        0.6799400979212527
+      ]
+    },
+    "entertainment": {
+      "n": 402,
+      "wins": 260,
+      "win_rate": 0.6467661691542289,
+      "wilson95": [
+        0.5988529959198088,
+        0.6919008351315177
+      ]
+    },
+    "finance": {
+      "n": 613,
+      "wins": 375,
+      "win_rate": 0.6117455138662317,
+      "wilson95": [
+        0.5725829641330941,
+        0.6495161939003463
+      ]
+    },
+    "marketing": {
+      "n": 623,
+      "wins": 404,
+      "win_rate": 0.6484751203852327,
+      "wilson95": [
+        0.6101773380613228,
+        0.6849530425643408
+      ]
+    },
+    "medical": {
+      "n": 950,
+      "wins": 592,
+      "win_rate": 0.6231578947368421,
+      "wilson95": [
+        0.5919042235867591,
+        0.6534195282814756
+      ]
+    },
+    "retail": {
+      "n": 1267,
+      "wins": 799,
+      "win_rate": 0.6306235201262825,
+      "wilson95": [
+        0.603690053192891,
+        0.6567672689470199
+      ]
+    },
+    "services": {
+      "n": 352,
+      "wins": 223,
+      "win_rate": 0.6335227272727273,
+      "wilson95": [
+        0.5819957103044192,
+        0.682166770979388
+      ]
+    },
+    "software": {
+      "n": 704,
+      "wins": 450,
+      "win_rate": 0.6392045454545454,
+      "wilson95": [
+        0.6030625641676977,
+        0.6738355441096344
+      ]
+    },
+    "technolgy": {
+      "n": 1058,
+      "wins": 671,
+      "win_rate": 0.6342155009451795,
+      "wilson95": [
+        0.6047552723881827,
+        0.6627045822643379
+      ]
+    },
+    "telecommunications": {
+      "n": 456,
+      "wins": 285,
+      "win_rate": 0.625,
+      "wilson95": [
+        0.5796939865622378,
+        0.6682174681647813
+      ]
+    }
+  },
+  "closed_by_quarter": {
+    "2017Q1": {
+      "n": 647,
+      "wins": 531,
+      "win_rate": 0.8207109737248841,
+      "wilson95": [
+        0.7892865431963026,
+        0.8483494038605542
+      ]
+    },
+    "2017Q2": {
+      "n": 2032,
+      "wins": 1254,
+      "win_rate": 0.6171259842519685,
+      "wilson95": [
+        0.5957884307935726,
+        0.6380215080543221
+      ]
+    },
+    "2017Q3": {
+      "n": 2047,
+      "wins": 1257,
+      "win_rate": 0.6140693698094772,
+      "wilson95": [
+        0.5927851561293754,
+        0.6349262380611852
+      ]
+    },
+    "2017Q4": {
+      "n": 1985,
+      "wins": 1196,
+      "win_rate": 0.6025188916876574,
+      "wilson95": [
+        0.5808119804791776,
+        0.6238297567008975
+      ]
+    }
+  },
+  "duration_closed": {
+    "count": 6711.0,
+    "mean": 47.98539710922366,
+    "std": 41.05766467363389,
+    "min": 1.0,
+    "50%": 45.0,
+    "75%": 85.0,
+    "90%": 104.0,
+    "95%": 114.5,
+    "max": 138.0
+  },
+  "duration_by_product": {
+    "GTK 500": {
+      "n": 25,
+      "median": 59.0,
+      "p90": 108.2,
+      "max": 126.0
+    },
+    "GTX Basic": {
+      "n": 1436,
+      "median": 50.0,
+      "p90": 105.0,
+      "max": 138.0
+    },
+    "GTX Plus Basic": {
+      "n": 1051,
+      "median": 48.0,
+      "p90": 105.0,
+      "max": 137.0
+    },
+    "GTX Plus Pro": {
+      "n": 745,
+      "median": 38.0,
+      "p90": 103.0,
+      "max": 136.0
+    },
+    "GTX Pro": {
+      "n": 1147,
+      "median": 37.0,
+      "p90": 102.0,
+      "max": 137.0
+    },
+    "MG Advanced": {
+      "n": 1084,
+      "median": 43.0,
+      "p90": 104.0,
+      "max": 138.0
+    },
+    "MG Special": {
+      "n": 1223,
+      "median": 49.0,
+      "p90": 104.0,
+      "max": 137.0
+    }
+  },
+  "open_age": {
+    "count": 1589.0,
+    "mean": 198.8162366268093,
+    "std": 83.59579619662402,
+    "min": 9.0,
+    "50%": 165.0,
+    "75%": 263.0,
+    "90%": 319.0,
+    "95%": 353.0,
+    "max": 423.0
+  },
+  "open_beyond_max_closed": 1291,
+  "review_age_over_p90": 1436,
+  "over_p90_by_account": {
+    "false": 979,
+    "true": 457
+  },
+  "teams_total": 35,
+  "agents_with_deals": 30,
+  "unique_open_accounts": 85,
+  "closed_revenue": 10005534.0,
+  "unknown_account_closed": 0,
+  "reference_action_counts": {
+    "identify_account": 1425,
+    "review_old_negotiation": 457,
+    "qualify_prospect": 163,
+    "continue_negotiation_review": 44
+  },
+  "methodology": {
+    "cutoffs": [
+      "2017-03-31",
+      "2017-06-30",
+      "2017-09-30"
+    ],
+    "horizon_days": 90,
+    "prior_strength": 20,
+    "k_per_seller": [
+      5,
+      10
+    ],
+    "seed": 22092026,
+    "tie_sensitivity_seeds": 30,
+    "bootstrap_clusters": "seller",
+    "bootstrap_repetitions": 2000,
+    "warnings": [
+      "Exploratory retrospective stress test, not a prospective holdout.",
+      "Future account completeness cannot be reconstructed; excluded from scorers.",
+      "Products and assignments assumed unchanged; no change log available.",
+      "Observation through 2017-12-31 assumed, not source-confirmed.",
+      "No observed win within 90 days is not equivalent to eventual Lost.",
+      "Revenue capture is retrospective coverage, not causal uplift or ROI.",
+      "Same opportunities can appear in multiple cutoffs; do not pool independent samples.",
+      "Won rate among closed deals is not calibrated 90-day win probability for open deals."
+    ]
+  },
+  "tie_sensitivity": [
+    {
+      "cutoff": "2017-03-31",
+      "k": 5,
+      "method": "catalog_price",
+      "precision_tie_min": 0.5466666666666666,
+      "precision_tie_max": 0.6
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 5,
+      "method": "product_rate",
+      "precision_tie_min": 0.38,
+      "precision_tie_max": 0.47333333333333333
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 5,
+      "method": "product_seller_rate",
+      "precision_tie_min": 0.3933333333333333,
+      "precision_tie_max": 0.48
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 5,
+      "method": "price_x_product_rate",
+      "precision_tie_min": 0.5466666666666666,
+      "precision_tie_max": 0.6
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 10,
+      "method": "catalog_price",
+      "precision_tie_min": 0.5166666666666667,
+      "precision_tie_max": 0.5533333333333333
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 10,
+      "method": "product_rate",
+      "precision_tie_min": 0.41333333333333333,
+      "precision_tie_max": 0.46
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 10,
+      "method": "product_seller_rate",
+      "precision_tie_min": 0.42,
+      "precision_tie_max": 0.47333333333333333
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 10,
+      "method": "price_x_product_rate",
+      "precision_tie_min": 0.5166666666666667,
+      "precision_tie_max": 0.5533333333333333
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 5,
+      "method": "catalog_price",
+      "precision_tie_min": 0.37333333333333335,
+      "precision_tie_max": 0.4533333333333333
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 5,
+      "method": "product_rate",
+      "precision_tie_min": 0.3933333333333333,
+      "precision_tie_max": 0.47333333333333333
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 5,
+      "method": "product_seller_rate",
+      "precision_tie_min": 0.34,
+      "precision_tie_max": 0.43333333333333335
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 5,
+      "method": "price_x_product_rate",
+      "precision_tie_min": 0.37333333333333335,
+      "precision_tie_max": 0.4533333333333333
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 10,
+      "method": "catalog_price",
+      "precision_tie_min": 0.38333333333333336,
+      "precision_tie_max": 0.43
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 10,
+      "method": "product_rate",
+      "precision_tie_min": 0.3933333333333333,
+      "precision_tie_max": 0.4633333333333333
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 10,
+      "method": "product_seller_rate",
+      "precision_tie_min": 0.36,
+      "precision_tie_max": 0.39666666666666667
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 10,
+      "method": "price_x_product_rate",
+      "precision_tie_min": 0.38333333333333336,
+      "precision_tie_max": 0.43
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 5,
+      "method": "catalog_price",
+      "precision_tie_min": 0.20666666666666667,
+      "precision_tie_max": 0.2866666666666667
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 5,
+      "method": "product_rate",
+      "precision_tie_min": 0.18,
+      "precision_tie_max": 0.26666666666666666
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 5,
+      "method": "product_seller_rate",
+      "precision_tie_min": 0.16,
+      "precision_tie_max": 0.25333333333333335
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 5,
+      "method": "price_x_product_rate",
+      "precision_tie_min": 0.20666666666666667,
+      "precision_tie_max": 0.2866666666666667
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 10,
+      "method": "catalog_price",
+      "precision_tie_min": 0.19666666666666666,
+      "precision_tie_max": 0.25666666666666665
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 10,
+      "method": "product_rate",
+      "precision_tie_min": 0.20333333333333334,
+      "precision_tie_max": 0.25666666666666665
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 10,
+      "method": "product_seller_rate",
+      "precision_tie_min": 0.19666666666666666,
+      "precision_tie_max": 0.24666666666666667
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 10,
+      "method": "price_x_product_rate",
+      "precision_tie_min": 0.19666666666666666,
+      "precision_tie_max": 0.25666666666666665
+    }
+  ],
+  "bootstrap_comparisons": [
+    {
+      "cutoff": "2017-03-31",
+      "k": 5,
+      "method": "product_rate",
+      "reference": "catalog_price",
+      "precision_delta": -0.12666666666666668,
+      "cluster_bootstrap95": [
+        -0.24,
+        -0.013333333333333334
+      ]
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 5,
+      "method": "product_seller_rate",
+      "reference": "catalog_price",
+      "precision_delta": -0.13333333333333333,
+      "cluster_bootstrap95": [
+        -0.24666666666666667,
+        -0.02
+      ]
+    },
+    {
+      "cutoff": "2017-03-31",
+      "k": 5,
+      "method": "price_x_product_rate",
+      "reference": "catalog_price",
+      "precision_delta": 0.0,
+      "cluster_bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 5,
+      "method": "product_rate",
+      "reference": "catalog_price",
+      "precision_delta": -0.006666666666666667,
+      "cluster_bootstrap95": [
+        -0.06,
+        0.04666666666666667
+      ]
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 5,
+      "method": "product_seller_rate",
+      "reference": "catalog_price",
+      "precision_delta": -0.013333333333333334,
+      "cluster_bootstrap95": [
+        -0.08666666666666667,
+        0.06666666666666667
+      ]
+    },
+    {
+      "cutoff": "2017-06-30",
+      "k": 5,
+      "method": "price_x_product_rate",
+      "reference": "catalog_price",
+      "precision_delta": 0.0,
+      "cluster_bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 5,
+      "method": "product_rate",
+      "reference": "catalog_price",
+      "precision_delta": -0.02666666666666667,
+      "cluster_bootstrap95": [
+        -0.12016666666666666,
+        0.06666666666666667
+      ]
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 5,
+      "method": "product_seller_rate",
+      "reference": "catalog_price",
+      "precision_delta": -0.02666666666666667,
+      "cluster_bootstrap95": [
+        -0.10666666666666667,
+        0.05333333333333334
+      ]
+    },
+    {
+      "cutoff": "2017-09-30",
+      "k": 5,
+      "method": "price_x_product_rate",
+      "reference": "catalog_price",
+      "precision_delta": 0.0,
+      "cluster_bootstrap95": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

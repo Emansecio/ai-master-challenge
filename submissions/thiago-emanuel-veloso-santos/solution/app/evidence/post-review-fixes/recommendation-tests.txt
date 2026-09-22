@@ -1,0 +1,19 @@
+✔ a missing account and long duration retain both operational checks (15.9607ms)
+✔ equality to the reference never becomes an above-reference signal (0.4134ms)
+✔ prospecting has no fictitious duration and prompts discovery (0.2888ms)
+✔ being below the reference is not presented as a healthy negotiation (0.2462ms)
+✔ invalid or unknown decisions suppress numerical authority (0.1649ms)
+✔ all reviewed cases have actionable questions, provenance limits and unchanged decisions (0.7689ms)
+✔ fractional references are preserved and non-finite numbers are not graphed (0.4368ms)
+✔ unknown commercial fields follow the supplied state (0.8889ms)
+✔ conference handoff keeps historical provenance, unknowns and simultaneous alerts (1.4679ms)
+✔ conference handoff does not invent dates or duration for prospecting (0.701ms)
+✔ all 2089 local opportunities produce consistent explanations without model calls (471.3124ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 575.9293

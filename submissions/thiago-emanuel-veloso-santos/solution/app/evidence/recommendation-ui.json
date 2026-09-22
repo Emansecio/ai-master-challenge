@@ -1,0 +1,103 @@
+{
+  "longMissing": {
+    "comparison": "231 dias acima da referênciaDuração em 31/12/2017Negociação 335 diasReferência P90 104 diasReferência global: o produto tem 25 negócios encerrados, menos que o mínimo de 30.Como interpretar esta comparaçãoO P90 abrange aproximadamente 90% das durações dos negócios encerrados usados como referência, incluindo ganhos e perdas. Comparamos o tempo em negociação; não é prazo do cliente, tempo sem contato ou chance de venda.",
+    "inlineStyles": 1,
+    "preview": "Sem empresa; duração acima da referência",
+    "secondary": "Também precisa de atençãoHá duas verificações neste caso: identificar a empresa e confirmar se a negociação continua ativa. A duração acima da referência continua relevante, mesmo com cadastro pendente.",
+    "summary": "Critério da políticaEmpresa ainda não identificadaA oportunidade ainda não está ligada a uma empresa. Confirme esse vínculo para avaliar o perfil e dar contexto ao atendimento.",
+    "svgWidths": [
+      "100",
+      "31.044776119402986"
+    ]
+  },
+  "mobile": {
+    "client": 320,
+    "dialogScroll": 289,
+    "dialogWidth": 289,
+    "scroll": 320,
+    "steps": 2,
+    "unknowns": 6,
+    "width": 320
+  },
+  "cases": [
+    {
+      "comparison": "Na referência: não ultrapassou o limite",
+      "id": "197EQMY8 · versão 1",
+      "rule": "Empresa ausente tem precedência",
+      "secondary": false,
+      "steps": 2,
+      "unknowns": "O que ainda não sabemos (6)"
+    },
+    {
+      "comparison": null,
+      "id": "DDHNCZMO · versão 1",
+      "rule": "Empresa identificada em prospecção",
+      "secondary": false,
+      "steps": 3,
+      "unknowns": "O que ainda não sabemos (6)"
+    },
+    {
+      "comparison": "86 dias abaixo da referência",
+      "id": "K9KGXL2E · versão 1",
+      "rule": "Negociação sem ultrapassar a referência",
+      "secondary": false,
+      "steps": 2,
+      "unknowns": "O que ainda não sabemos (6)"
+    },
+    {
+      "comparison": "14 dias acima da referência",
+      "id": "7GDSUY9K · versão 1",
+      "rule": "Empresa identificada e duração acima da referência",
+      "secondary": false,
+      "steps": 3,
+      "unknowns": "O que ainda não sabemos (6)"
+    }
+  ],
+  "responsive": [
+    {
+      "client": 305,
+      "scroll": 305,
+      "tableClient": 271,
+      "tableScroll": 271,
+      "width": 320
+    },
+    {
+      "client": 375,
+      "scroll": 375,
+      "tableClient": 341,
+      "tableScroll": 341,
+      "width": 390
+    },
+    {
+      "client": 753,
+      "scroll": 753,
+      "tableClient": 687,
+      "tableScroll": 687,
+      "width": 768
+    },
+    {
+      "client": 1265,
+      "scroll": 1265,
+      "tableClient": 827,
+      "tableScroll": 827,
+      "width": 1280
+    }
+  ],
+  "escape": {
+    "closed": true,
+    "focus": "A7SA2L21"
+  },
+  "moduleErrors": [],
+  "assertions": {
+    "duration": true,
+    "bothSignals": true,
+    "noInlineStyle": true,
+    "prospectNoAge": true,
+    "boundary": true,
+    "responsive": true,
+    "mobile": true,
+    "escape": true
+  },
+  "appInlineStyles": 0,
+  "styleObservation": "The browser adds a comments overlay with inline style outside the application; application content has none."
+}

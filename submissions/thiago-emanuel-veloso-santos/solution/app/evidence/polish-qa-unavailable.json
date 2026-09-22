@@ -1,0 +1,5 @@
+{
+  "status": "Falha ao atualizar. Os dados visíveis são da última consulta concluída.",
+  "message": "Não foi possível conectar. Confira se o servidor está disponível e tente atualizar.",
+  "rows_kept": 20
+}

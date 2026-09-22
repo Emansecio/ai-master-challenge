@@ -1,0 +1,78 @@
+{
+  "prepared_at": "2026-09-22T07:13:01.056Z",
+  "script_sha256": "30de2d9f6ad738632f058d6733510d00a600c7fdd93c2f5229dd5dc74dba2e78",
+  "config_sha256": "398aa68083bb04e743da93e4be3dec0d2a0b432a638eb500541a0bc665fefa87",
+  "cases_sha256": "93b5b17741b87fa43e2daf3370cc1fcb53426629828134c5013528d717b60350",
+  "config": {
+    "version": "router-local-v01",
+    "model": "onnx/model_quantized.onnx",
+    "executionProviders": [
+      "cpu"
+    ],
+    "threads": 6,
+    "language": "English",
+    "note": "Compact factual representation and conditional category descriptions; no expected labels in inference. Two routes per opportunity. No retraining, threshold, deterministic correction or output cache.",
+    "questions": {
+      "qualification": {
+        "labels": [
+          "incomplete_profile",
+          "discovery_required",
+          "negotiation_reviewable",
+          "human_review"
+        ],
+        "cats": [
+          "Missing account: incomplete profile.",
+          "Known account, Prospecting: discovery required.",
+          "Known account, Engaging: negotiation reviewable.",
+          "Invalid or contradictory data: human review."
+        ]
+      },
+      "next_action": {
+        "labels": [
+          "identify_account",
+          "qualify_prospect",
+          "review_old_negotiation",
+          "continue_negotiation_review",
+          "human_review"
+        ],
+        "cats": [
+          "Missing account: identify the company.",
+          "Known account, Prospecting: qualify needs.",
+          "Known account, Engaging, age above reference: review old negotiation.",
+          "Known account, Engaging, age not above reference: review next step.",
+          "Invalid or contradictory data: human review."
+        ]
+      }
+    }
+  },
+  "assets": {
+    "repo": "kucukkanat/LFM2.5-Encoder-350M-Prompt-Router-ONNX",
+    "revision": "d5f69da4b475ee0edcba2caf12f5a724aa8cab5a",
+    "files": {
+      "config.json": {
+        "url": "https://huggingface.co/kucukkanat/LFM2.5-Encoder-350M-Prompt-Router-ONNX/resolve/d5f69da4b475ee0edcba2caf12f5a724aa8cab5a/config.json",
+        "bytes": 1052,
+        "sha256": "1daf64c87700cad7d0f3b09288eee285453ff588ab910d73e8dc900077ed463c"
+      },
+      "tokenizer.json": {
+        "url": "https://huggingface.co/kucukkanat/LFM2.5-Encoder-350M-Prompt-Router-ONNX/resolve/d5f69da4b475ee0edcba2caf12f5a724aa8cab5a/tokenizer.json",
+        "bytes": 4733469,
+        "sha256": "3a63c54c318111dd49d589cc3a17b63a76067afe9af99439a3f408d1ae11ee86"
+      },
+      "onnx/model_quantized.onnx": {
+        "url": "https://huggingface.co/kucukkanat/LFM2.5-Encoder-350M-Prompt-Router-ONNX/resolve/d5f69da4b475ee0edcba2caf12f5a724aa8cab5a/onnx/model_quantized.onnx",
+        "bytes": 356839915,
+        "sha256": "353b79e0052f80bd4049542f55a487c6d418a79bc1a2e02f28e6c22f432afdc3"
+      }
+    }
+  },
+  "code_revision": "ca4a967fa3632a2faed8cbd9721fe419cf8b207e",
+  "node": "v26.9.0",
+  "platform": "win32",
+  "arch": "x64",
+  "cpu": "Intel(R) Core(TM) i7-14700K",
+  "logical_cpus": 28,
+  "total_ram_bytes": 34049568768,
+  "tokenizers": "0.23.2",
+  "baseline_note": "Full Jev instructions, state and criteria tested against the public buildInputs; unsupported payloads are not inference errors or accuracy results."
+}

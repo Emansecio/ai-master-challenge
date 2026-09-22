@@ -1,0 +1,9 @@
+{
+  "reports": 14,
+  "missing_local_links": [],
+  "application_corrections_applied": false,
+  "silent_command_exit_codes": {
+    "go_build": 0,
+    "go_vet": 0
+  }
+}

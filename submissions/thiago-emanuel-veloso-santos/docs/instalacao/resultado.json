@@ -1,0 +1,24 @@
+{
+  "app_port": 8767,
+  "database_port": 55433,
+  "fresh_database": true,
+  "separate_compose_project": "g4-leaddesk-submission-check",
+  "opportunities": 2089,
+  "imported_classifications": 120,
+  "jobs": 0,
+  "api_key_configured": false,
+  "npm_ci": true,
+  "typescript_build": true,
+  "go_test_integration": true,
+  "go_vet": true,
+  "go_build": true,
+  "external_model_calls": 0,
+  "isolation_note": "A configuração de teste usou portas e projeto Compose próprios, com credenciais novas. O script init-local, instalação npm, compilação e setup foram executados na cópia de entrega. As ferramentas e a imagem Docker já estavam disponíveis no computador.",
+  "browser_checks": {
+    "passed": 25,
+    "total": 25,
+    "errors": []
+  },
+  "browser_first_attempt": "Timeout na abertura do resumo depois de 12 verificações aprovadas. A inspeção isolada encontrou o resumo disponível e nenhum erro JavaScript. Uma repetição integral com captura de diagnóstico passou as 25 verificações. A causa do timeout não foi determinada.",
+  "recommendation_tests": 11
+}

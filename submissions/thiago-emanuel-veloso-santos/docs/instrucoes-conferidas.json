@@ -1,0 +1,32 @@
+[
+  {
+    "file": "README.md",
+    "url": "https://raw.githubusercontent.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/main/README.md",
+    "matches_local": true,
+    "sha256": "b44298df9acbcb211d90516bc12cdfda139d179ef964da17f7ae0a77b11480f4"
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "url": "https://raw.githubusercontent.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/main/CONTRIBUTING.md",
+    "matches_local": true,
+    "sha256": "f34711723bc0732b4eed4d9dab1b951f411296d8f25c5385d4bfb6f4f348d642"
+  },
+  {
+    "file": "submission-guide.md",
+    "url": "https://raw.githubusercontent.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/main/submission-guide.md",
+    "matches_local": true,
+    "sha256": "2320b0143536d091970cbe7d6f4bf35c66611665da8f0817e2b593c2ebcefaf8"
+  },
+  {
+    "file": "templates/submission-template.md",
+    "url": "https://raw.githubusercontent.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/main/templates/submission-template.md",
+    "matches_local": true,
+    "sha256": "a3c85034f355ae8b1a3c44c1b1739ccf34d0e4bb0cab8bc8b63c541f0a6e4b25"
+  },
+  {
+    "file": "challenges/build-003-lead-scorer/README.md",
+    "url": "https://raw.githubusercontent.com/Gestao-Quatro-Ponto-Zero/ai-master-challenge/main/challenges/build-003-lead-scorer/README.md",
+    "matches_local": true,
+    "sha256": "0f88457c166c0b945ef645dfb25ae35021d38a6dab92e4af613ddcc8253dd466"
+  }
+]

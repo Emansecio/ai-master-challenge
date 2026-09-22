@@ -1,0 +1,4 @@
+# Preserve audited file bytes across platforms; receipts validate SHA-256 hashes.
+* -text
+*.png binary
+*.zip binary

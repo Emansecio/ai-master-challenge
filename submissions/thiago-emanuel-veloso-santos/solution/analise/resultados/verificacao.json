@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "contagens e receita reconciliadas com csv.DictReader",
+    "unicidade e integridade das ligacoes apos alias em memoria",
+    "30 combinacoes de benchmark e metricas dentro dos limites",
+    "historico de treinamento anterior ou igual a cada corte",
+    "scores invariantes a alteracoes de resultados futuros e contas atuais",
+    "receita futura do conjunto elegivel reconciliada independentemente",
+    "capacidade por vendedor e equivalencia observada dos rankings verificados"
+  ],
+  "limitations": "Estas verificacoes nao provam ausencia de vies de selecao nem validade prospectiva."
+}

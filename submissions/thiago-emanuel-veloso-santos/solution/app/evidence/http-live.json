@@ -1,0 +1,28 @@
+{
+  "port": 8766,
+  "open_opportunities": 2089,
+  "first_page_ms": 205.80840000184253,
+  "seller_scope_verified": true,
+  "live_executed": true,
+  "load": [
+    {
+      "concurrent_clients": 35,
+      "requests": 35,
+      "errors": 0,
+      "p50_ms": 499.41669999680016,
+      "p95_ms": 740.6422000058228
+    },
+    {
+      "concurrent_clients": 100,
+      "requests": 100,
+      "errors": 0,
+      "p50_ms": 719.0396000078181,
+      "p95_ms": 1166.2217999983113
+    }
+  ],
+  "live_case_id": "UP409DSB",
+  "job_id": "902326ed-b8fc-4a4b-80f7-fd20c8760e84",
+  "classified": true,
+  "reused_without_new_job": true,
+  "cached_request_ms": 9.180199995171279
+}

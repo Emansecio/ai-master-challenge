@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "name": "URL de entrada sobrevive ao login",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Filtro e fila da URL correspondem aos registros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recarregar restaura região, fila e página",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Link compartilhado restaura a seleção em outra aba",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Busca e mudanças de fila entram no histórico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Voltar restaura busca e fila",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Voltar novamente restaura fila anterior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Avançar restaura fila seguinte",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Histórico cancela busca ainda aguardando debounce",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Limpar remove parâmetros próprios e preserva âncora",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Limpar pode ser desfeito pelo histórico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Paginação atualiza URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Confirmação de cópia fica visível perto do botão após paginar",
+      "passed": true,
+      "detail": {
+        "top": 858.90625,
+        "bottom": 926.5,
+        "fullyVisible": true
+      }
+    },
+    {
+      "name": "Resumo copiado pertence à oportunidade selecionada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha de cópia oferece seleção manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cópia atrasada mantém ID de origem ao trocar de oportunidade",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Confirmação móvel fica dentro do diálogo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Confirmação móvel fica na área visível",
+      "passed": true,
+      "detail": {
+        "top": 606,
+        "bottom": 673.59375,
+        "fullyVisible": true
+      }
+    },
+    {
+      "name": "Parâmetros inválidos são normalizados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Página além do total é normalizada na URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Vendedor, gestor e região restaurados juntos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "URL não amplia a carteira do vendedor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Filtros indisponíveis para o perfil são removidos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nenhum erro JavaScript não tratado",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Nenhuma tentativa de escrita comercial real",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "blocked": []
+}

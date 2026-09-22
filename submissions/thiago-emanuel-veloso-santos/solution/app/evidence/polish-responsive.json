@@ -1,0 +1,25 @@
+{
+  "width320": {
+    "accountInput": 44,
+    "body": 305,
+    "save": 44,
+    "table": 273,
+    "tableContents": 491,
+    "viewport": 305
+  },
+  "otherWidths": [
+    {
+      "width": 390,
+      "body": 375,
+      "detailWidth": 345,
+      "viewport": 375
+    },
+    {
+      "width": 1280,
+      "body": 1265,
+      "detailWidth": 320,
+      "viewport": 1265
+    }
+  ],
+  "viewport_restored": true
+}

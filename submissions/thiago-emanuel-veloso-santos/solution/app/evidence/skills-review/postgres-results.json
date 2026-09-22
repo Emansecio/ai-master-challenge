@@ -1,0 +1,242 @@
+{
+  "role_for_page_plans": "leaddesk",
+  "read_only_transactions": true,
+  "plans": [
+    {
+      "case": "admin-first",
+      "execution_ms": 79.667,
+      "planning_ms": 1.227,
+      "indexes": [
+        "classifications_pkey"
+      ],
+      "disk_sorts": []
+    },
+    {
+      "case": "admin-last",
+      "execution_ms": 34.859,
+      "planning_ms": 0.926,
+      "indexes": [
+        "classifications_pkey"
+      ],
+      "disk_sorts": []
+    },
+    {
+      "case": "seller",
+      "execution_ms": 25.976,
+      "planning_ms": 1.306,
+      "indexes": [
+        "classifications_pkey",
+        "opportunity_agent"
+      ],
+      "disk_sorts": []
+    },
+    {
+      "case": "region",
+      "execution_ms": 2.468,
+      "planning_ms": 0.999,
+      "indexes": [
+        "classifications_pkey"
+      ],
+      "disk_sorts": []
+    },
+    {
+      "case": "search",
+      "execution_ms": 27.943,
+      "planning_ms": 1.138,
+      "indexes": [
+        "classifications_pkey"
+      ],
+      "disk_sorts": []
+    }
+  ],
+  "metadata": {
+    "settings": {
+      "autovacuum": "on",
+      "idle_in_transaction_session_timeout": "0",
+      "lock_timeout": "0",
+      "max_connections": "100",
+      "statement_timeout": "0",
+      "work_mem": "4096"
+    },
+    "runtime_role": {
+      "rolname": "leaddesk",
+      "rolsuper": false,
+      "rolcreatedb": false,
+      "rolcreaterole": false,
+      "rolbypassrls": false
+    },
+    "connections": [
+      {
+        "usename": "leadadmin",
+        "state": "active",
+        "count": 1
+      },
+      {
+        "usename": "leaddesk",
+        "state": "idle",
+        "count": 4
+      }
+    ],
+    "activity": {
+      "deadlocks": 0,
+      "temp_files": 0,
+      "temp_bytes": 0
+    },
+    "tables": [
+      {
+        "relname": "classifications",
+        "n_live_tup": 122,
+        "n_dead_tup": 0,
+        "last_autoanalyze": "2026-09-22T07:53:58.103918+00:00",
+        "last_autovacuum": null
+      },
+      {
+        "relname": "job_attempts",
+        "n_live_tup": 2,
+        "n_dead_tup": 0,
+        "last_autoanalyze": null,
+        "last_autovacuum": null
+      },
+      {
+        "relname": "jobs",
+        "n_live_tup": 2,
+        "n_dead_tup": 4,
+        "last_autoanalyze": null,
+        "last_autovacuum": null
+      },
+      {
+        "relname": "opportunities",
+        "n_live_tup": 2089,
+        "n_dead_tup": 0,
+        "last_autoanalyze": "2026-09-22T07:53:58.087171+00:00",
+        "last_autovacuum": "2026-09-22T07:53:58.076053+00:00"
+      },
+      {
+        "relname": "opportunity_versions",
+        "n_live_tup": 2089,
+        "n_dead_tup": 0,
+        "last_autoanalyze": "2026-09-22T07:53:58.102701+00:00",
+        "last_autovacuum": "2026-09-22T07:53:58.094839+00:00"
+      },
+      {
+        "relname": "provider_gate",
+        "n_live_tup": 1,
+        "n_dead_tup": 2,
+        "last_autoanalyze": null,
+        "last_autovacuum": null
+      },
+      {
+        "relname": "sessions",
+        "n_live_tup": 2,
+        "n_dead_tup": 9,
+        "last_autoanalyze": null,
+        "last_autovacuum": null
+      },
+      {
+        "relname": "settings",
+        "n_live_tup": 1,
+        "n_dead_tup": 1,
+        "last_autoanalyze": null,
+        "last_autovacuum": null
+      },
+      {
+        "relname": "source_records",
+        "n_live_tup": 8927,
+        "n_dead_tup": 0,
+        "last_autoanalyze": "2026-09-22T07:53:58.06828+00:00",
+        "last_autovacuum": "2026-09-22T07:53:58.034978+00:00"
+      },
+      {
+        "relname": "users",
+        "n_live_tup": 3,
+        "n_dead_tup": 0,
+        "last_autoanalyze": null,
+        "last_autovacuum": null
+      }
+    ],
+    "indexes": [
+      {
+        "tablename": "classifications",
+        "indexname": "classifications_pkey",
+        "indexdef": "CREATE UNIQUE INDEX classifications_pkey ON public.classifications USING btree (opportunity_id, version, policy_hash)"
+      },
+      {
+        "tablename": "job_attempts",
+        "indexname": "job_attempts_pkey",
+        "indexdef": "CREATE UNIQUE INDEX job_attempts_pkey ON public.job_attempts USING btree (job_id, attempt)"
+      },
+      {
+        "tablename": "jobs",
+        "indexname": "jobs_opportunity_id_version_policy_hash_key",
+        "indexdef": "CREATE UNIQUE INDEX jobs_opportunity_id_version_policy_hash_key ON public.jobs USING btree (opportunity_id, version, policy_hash)"
+      },
+      {
+        "tablename": "jobs",
+        "indexname": "jobs_pkey",
+        "indexdef": "CREATE UNIQUE INDEX jobs_pkey ON public.jobs USING btree (id)"
+      },
+      {
+        "tablename": "jobs",
+        "indexname": "jobs_ready",
+        "indexdef": "CREATE INDEX jobs_ready ON public.jobs USING btree (status, available_at, lease_until)"
+      },
+      {
+        "tablename": "opportunities",
+        "indexname": "opportunities_pkey",
+        "indexdef": "CREATE UNIQUE INDEX opportunities_pkey ON public.opportunities USING btree (id)"
+      },
+      {
+        "tablename": "opportunities",
+        "indexname": "opportunity_agent",
+        "indexdef": "CREATE INDEX opportunity_agent ON public.opportunities USING btree (((doc ->> 'sales_agent'::text)))"
+      },
+      {
+        "tablename": "opportunities",
+        "indexname": "opportunity_manager",
+        "indexdef": "CREATE INDEX opportunity_manager ON public.opportunities USING btree (((doc ->> 'manager'::text)))"
+      },
+      {
+        "tablename": "opportunity_versions",
+        "indexname": "opportunity_versions_pkey",
+        "indexdef": "CREATE UNIQUE INDEX opportunity_versions_pkey ON public.opportunity_versions USING btree (opportunity_id, version)"
+      },
+      {
+        "tablename": "provider_gate",
+        "indexname": "provider_gate_pkey",
+        "indexdef": "CREATE UNIQUE INDEX provider_gate_pkey ON public.provider_gate USING btree (id)"
+      },
+      {
+        "tablename": "sessions",
+        "indexname": "sessions_pkey",
+        "indexdef": "CREATE UNIQUE INDEX sessions_pkey ON public.sessions USING btree (token_hash)"
+      },
+      {
+        "tablename": "settings",
+        "indexname": "settings_pkey",
+        "indexdef": "CREATE UNIQUE INDEX settings_pkey ON public.settings USING btree (id)"
+      },
+      {
+        "tablename": "source_records",
+        "indexname": "source_records_pkey",
+        "indexdef": "CREATE UNIQUE INDEX source_records_pkey ON public.source_records USING btree (table_name, record_key)"
+      },
+      {
+        "tablename": "users",
+        "indexname": "users_pkey",
+        "indexdef": "CREATE UNIQUE INDEX users_pkey ON public.users USING btree (id)"
+      },
+      {
+        "tablename": "users",
+        "indexname": "users_token_hash_key",
+        "indexdef": "CREATE UNIQUE INDEX users_token_hash_key ON public.users USING btree (token_hash)"
+      }
+    ],
+    "counts": {
+      "opportunities": 2089,
+      "versions": 2089,
+      "classifications": 122,
+      "jobs": 2,
+      "attempts": 2
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "api_contracts_unchanged": {
+    "/api/opportunities": true,
+    "/api/opportunities?page=50": true,
+    "/api/opportunities?action=identify_account&page=2": true,
+    "/api/opportunities?search=ZZZ-SEM-RESULTADO": true,
+    "/api/opportunities?sales_agent=Maureen%20Marcano": true,
+    "/api/meta": true
+  },
+  "database_counts": {
+    "opportunities": 2089,
+    "versions": 2089,
+    "classifications": 122,
+    "jobs": 2
+  },
+  "served_module_matches": true,
+  "model_calls_this_round": 0,
+  "policy_changed": false,
+  "evaluation": "explanation consistency, not commercial accuracy",
+  "source_sha256": {
+    "frontend/recommendation.ts": "644b85d258a4df9540ccff3b49c1258120b2f850573c7c971a00fe462fc27e74",
+    "frontend/app.ts": "fee7eaa301bae5f53680781c49b042f926b4c231957a98e8e58911fac489a3e6",
+    "static/app.js": "b00056dd0e1893227c25a04abc9b0f6847a43b73e9757b1983a6b3e6eb5eba85",
+    "static/recommendation.js": "beba2366cb6dad9f7dcee4f5e388b06dff0d04a6b52d54f72620e7baade90516",
+    "static/style.css": "fd19c5feb24578ce708079f3119a7c47221981a37aca6aa5cdfd6b8c41f44ada",
+    "internal/web/api.go": "01a5360c744750e39108655746751997e17fc75200a85dad0bb3969b9ba25f71",
+    "scripts/recommendation.test.mjs": "71382b4d8cc5abb67fc2b52190d161386cb9375b0527aa840b2d4af9518791d9"
+  },
+  "served_assets_match": true
+}

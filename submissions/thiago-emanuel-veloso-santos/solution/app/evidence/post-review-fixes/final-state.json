@@ -1,0 +1,17 @@
+{
+  "commercial_counts": {
+    "opportunities": 2089,
+    "opportunity_versions": 2089,
+    "classifications": 122,
+    "jobs": 2,
+    "job_attempts": 2,
+    "pending_jobs": 0
+  },
+  "source_sha256": {
+    "frontend/app.ts": "385262a3727f892efdd451b40564e79c1fbce7460d1c7f58726ef1a7d1a407d7",
+    "static/app.js": "2941344cd8af6cb833d5aed5f722fd95c76c99c0791e4a8719600d8b30655494",
+    "internal/store/store.go": "8bae95d115351382822b19cc8950cae59bb17a625614e34b0c96d2ae31e19b54",
+    "internal/store/account_connection_test.go": "4f8d5a96d11a9aa23891c0085cb0950b6ea5ff41c71e3b3a3c7074bc4f5d5098",
+    "scripts/test-post-review-ui.py": "28c17f47c181946ccf9268e4ad203bb6596a82d1772ff905c0d2d7a8db5b3010"
+  }
+}

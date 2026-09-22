@@ -1,0 +1,62 @@
+{
+  "phase": "before",
+  "workload": "closed-loop mixed GET, fixed 30/175/500 requests; local machine",
+  "paths": [
+    "/api/opportunities",
+    "/api/opportunities?page=50",
+    "/api/opportunities?action=identify_account&page=2",
+    "/api/opportunities?search=ZZZ-SEM-RESULTADO",
+    "/api/opportunities?sales_agent=Maureen%20Marcano",
+    "/api/meta"
+  ],
+  "contracts": {
+    "/api/opportunities": "09c2eba7a4b2cc1941712a2b01637bca1b67c124f8de295bd9fcafa236ea99bf",
+    "/api/opportunities?page=50": "36fa7f15b01c8a863ea01598ddba2d40992319f3d10baae8998eedf82ff77035",
+    "/api/opportunities?action=identify_account&page=2": "e734be569eb06588ba91bde5bfe213e775d8b26f60daf11ba677b60427d0a2de",
+    "/api/opportunities?search=ZZZ-SEM-RESULTADO": "eb74be0c90ecbe051618da83851af945ff619ba55c207e3059e5711150913940",
+    "/api/opportunities?sales_agent=Maureen%20Marcano": "7fc6475b602e1848200f0d388f4fe5e0c4c68148b0049264f9fd8140838d551c",
+    "/api/meta": "3c7165e11c94ebc0bdcb7ac67534e39991f5f975b0863e9768c4ae763992b966"
+  },
+  "results": [
+    {
+      "clients": 1,
+      "requests": 30,
+      "errors": 0,
+      "elapsed_seconds": 0.5870880000002217,
+      "throughput_rps": 51.09966478617971,
+      "p50_ms": 17.952500013052486,
+      "p95_ms": 38.01709999970626,
+      "p99_ms": 38.02830001222901
+    },
+    {
+      "clients": 35,
+      "requests": 175,
+      "errors": 0,
+      "elapsed_seconds": 1.1363897999981418,
+      "throughput_rps": 153.99645438588604,
+      "p50_ms": 228.66539999085944,
+      "p95_ms": 315.90060000598896,
+      "p99_ms": 373.6314999987371
+    },
+    {
+      "clients": 100,
+      "requests": 500,
+      "errors": 0,
+      "elapsed_seconds": 2.948652300008689,
+      "throughput_rps": 169.56899258638484,
+      "p50_ms": 553.9091999962693,
+      "p95_ms": 816.2615000037476,
+      "p99_ms": 869.899199999054
+    }
+  ],
+  "new_model_calls": 0,
+  "sustained": {
+    "clients": 100,
+    "target_seconds": 30,
+    "actual_seconds": 30.51987430000736,
+    "requests": 5156,
+    "errors": 0,
+    "p95_ms": 853.0759999994189,
+    "throughput_rps": 168.9390968428319
+  }
+}

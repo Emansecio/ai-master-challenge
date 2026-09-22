@@ -1,0 +1,32 @@
+{
+  "development": {
+    "qualification": {
+      "confidence_min": 0.57,
+      "confidence_median": 0.87,
+      "below_0_8": 20
+    },
+    "next_action": {
+      "confidence_min": 0.41,
+      "confidence_median": 0.87,
+      "below_0_8": 20
+    },
+    "both_at_least_0_8": 40
+  },
+  "evaluation": {
+    "qualification": {
+      "confidence_min": 0.61,
+      "confidence_median": 0.86,
+      "below_0_8": 20
+    },
+    "next_action": {
+      "confidence_min": 0.39,
+      "confidence_median": 0.865,
+      "below_0_8": 20
+    },
+    "both_at_least_0_8": 40
+  },
+  "gateway_provider_duration_ms": {
+    "n": 120,
+    "median": 156.0
+  }
+}

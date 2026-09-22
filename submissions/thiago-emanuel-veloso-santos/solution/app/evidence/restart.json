@@ -1,0 +1,6 @@
+{
+  "server_restarted": true,
+  "case_id": "UP409DSB",
+  "status_after_restart": "classified",
+  "reuse_after_restart": "cached"
+}

@@ -1,0 +1,44 @@
+{
+  "phase": "evaluation",
+  "completed_at": "2026-09-22T07:13:49.744Z",
+  "n": 60,
+  "correct": {
+    "qualification": 30,
+    "next_action": 24
+  },
+  "both_correct": 23,
+  "human_review_predictions": {
+    "qualification": 0,
+    "next_action": 0
+  },
+  "opportunity_duration_ms": {
+    "n": 60,
+    "min": 80.57870000000003,
+    "p50": 220.4411,
+    "p95": 226.1900000000005,
+    "max": 229.28489999999965
+  },
+  "route_duration_ms": {
+    "n": 120,
+    "min": 36.20679999999993,
+    "p50": 99.0081999999993,
+    "p95": 124.08410000000003,
+    "max": 128.10440000000017
+  },
+  "init_ms": 608.2816,
+  "cold_smoke_ms": 22.937799999999925,
+  "smoke": {
+    "probs": [
+      0.9394299914072033,
+      0.060570008592796695
+    ],
+    "topIndex": 0,
+    "count": 19
+  },
+  "peak_observed_rss_bytes": 491053056,
+  "frozen": {
+    "script_sha256": "30de2d9f6ad738632f058d6733510d00a600c7fdd93c2f5229dd5dc74dba2e78",
+    "config_sha256": "398aa68083bb04e743da93e4be3dec0d2a0b432a638eb500541a0bc665fefa87",
+    "cases_sha256": "93b5b17741b87fa43e2daf3370cc1fcb53426629828134c5013528d717b60350"
+  }
+}

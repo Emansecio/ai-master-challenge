@@ -1,0 +1,62 @@
+?   	leaddesk/cmd/leaddesk	[no test files]
+?   	leaddesk/internal/config	[no test files]
+=== RUN   TestAuditedCases
+--- PASS: TestAuditedCases (0.01s)
+=== RUN   TestContradictionAndBoundary
+--- PASS: TestContradictionAndBoundary (0.00s)
+PASS
+ok  	leaddesk/internal/core	0.510s
+=== RUN   TestHTTPFailuresAndNoLabelLeak
+=== RUN   TestHTTPFailuresAndNoLabelLeak/Too_Many_Requests
+=== RUN   TestHTTPFailuresAndNoLabelLeak/Service_Unavailable
+=== RUN   TestHTTPFailuresAndNoLabelLeak/Unauthorized
+--- PASS: TestHTTPFailuresAndNoLabelLeak (0.02s)
+    --- PASS: TestHTTPFailuresAndNoLabelLeak/Too_Many_Requests (0.00s)
+    --- PASS: TestHTTPFailuresAndNoLabelLeak/Service_Unavailable (0.00s)
+    --- PASS: TestHTTPFailuresAndNoLabelLeak/Unauthorized (0.00s)
+PASS
+ok  	leaddesk/internal/service	1.217s
+=== RUN   TestUnchangedAccountReleasesConnection
+--- PASS: TestUnchangedAccountReleasesConnection (0.03s)
+=== RUN   TestRealImportAndReceipts
+--- PASS: TestRealImportAndReceipts (0.76s)
+=== RUN   TestConcurrentDedupAndPersistentResult
+--- PASS: TestConcurrentDedupAndPersistentResult (0.11s)
+=== RUN   TestConcurrentEditsAndLateResponse
+--- PASS: TestConcurrentEditsAndLateResponse (0.08s)
+=== RUN   TestPolicyChangeDuringCall
+--- PASS: TestPolicyChangeDuringCall (0.07s)
+=== RUN   TestLeaseRecoveryAndAttemptLimit
+--- PASS: TestLeaseRecoveryAndAttemptLimit (0.10s)
+=== RUN   TestAccessScopeAndRuntimePrivileges
+--- PASS: TestAccessScopeAndRuntimePrivileges (0.29s)
+=== RUN   TestGlobalConcurrencyGate
+--- PASS: TestGlobalConcurrencyGate (0.08s)
+=== RUN   TestExhaustedLeaseBecomesTerminal
+--- PASS: TestExhaustedLeaseBecomesTerminal (0.07s)
+=== RUN   TestModelEpochCannotReuseOldReceipts
+--- PASS: TestModelEpochCannotReuseOldReceipts (0.04s)
+=== RUN   TestClaimSkipsObsoletePendingIdentity
+=== RUN   TestClaimSkipsObsoletePendingIdentity/version
+=== RUN   TestClaimSkipsObsoletePendingIdentity/policy
+--- PASS: TestClaimSkipsObsoletePendingIdentity (0.08s)
+    --- PASS: TestClaimSkipsObsoletePendingIdentity/version (0.04s)
+    --- PASS: TestClaimSkipsObsoletePendingIdentity/policy (0.04s)
+=== RUN   TestInterruptedAttemptsRecordedOnceAndFenced
+--- PASS: TestInterruptedAttemptsRecordedOnceAndFenced (0.05s)
+=== RUN   TestExpiredObsoleteJobRecordsInterruptionWithoutRedispatch
+--- PASS: TestExpiredObsoleteJobRecordsInterruptionWithoutRedispatch (0.06s)
+=== RUN   TestInterruptedExhaustionRecordsAllAttemptsOnce
+--- PASS: TestInterruptedExhaustionRecordsAllAttemptsOnce (0.06s)
+=== RUN   TestAuditAttemptsAreBoundedScopedAndSafe
+--- PASS: TestAuditAttemptsAreBoundedScopedAndSafe (0.08s)
+=== RUN   TestPageMatchesOriginalOrderingAndScopes
+--- PASS: TestPageMatchesOriginalOrderingAndScopes (5.51s)
+=== RUN   TestAuditScopeVersionsAndCurrentMeaning
+--- PASS: TestAuditScopeVersionsAndCurrentMeaning (0.11s)
+PASS
+ok  	leaddesk/internal/store	13.520s
+=== RUN   TestRecommendationModuleIsServed
+--- PASS: TestRecommendationModuleIsServed (0.04s)
+PASS
+ok  	leaddesk/internal/web	1.061s

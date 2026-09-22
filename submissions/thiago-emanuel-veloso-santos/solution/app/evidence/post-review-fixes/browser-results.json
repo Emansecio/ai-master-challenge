@@ -1,0 +1,143 @@
+{
+  "browser": "Chromium via Microsoft Edge headless",
+  "checks": [
+    {
+      "name": "Login inválido apresenta mensagem e mantém formulário",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Login administrativo e primeira página real",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Paginação real e foco no título dos resultados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Busca vazia oferece recuperação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Limpar busca restaura carteira",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Filtro regional aplicado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cadastro aparece antes da explicação",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Resumo explicita data histórica, identidade e ausência de atendimento",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Histórico real disponível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Página em 320 px sem rolagem horizontal global",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Detalhe móvel abre com foco no título",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Foco permanece no diálogo móvel durante navegação por Tab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Escape fecha diálogo e devolve foco ao registro",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Logout remove carteira visível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Carteira restrita no perfil gestor",
+      "passed": true,
+      "detail": {
+        "visible_total": 414
+      }
+    },
+    {
+      "name": "Carteira restrita no perfil vendedor",
+      "passed": true,
+      "detail": {
+        "visible_total": 61
+      }
+    },
+    {
+      "name": "Rascunho preservado ao trocar oportunidade",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Salvamento atrasado não atribui sucesso à oportunidade errada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cópia do resumo corresponde à oportunidade atual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Falha de clipboard seleciona texto para cópia manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Conflito de versão descarta rascunho antigo e apresenta aviso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fixture não consulta o classificador",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nenhum erro JavaScript não tratado",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Nenhuma tentativa de escrita comercial na aplicação real",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "observations": [
+    {
+      "name": "URL depois do filtro regional",
+      "url": "http://127.0.0.1:8766/?region=East",
+      "filter": "East"
+    },
+    {
+      "name": "Filtro regional depois de recarregar",
+      "value": "East"
+    }
+  ],
+  "page_errors": [],
+  "blocked_real_writes": [],
+  "live_model_calls": 0
+}

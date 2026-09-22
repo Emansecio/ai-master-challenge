@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-22T05:11:57.7845363-03:00",
+  "kind": "logical_pg_dump_restore",
+  "note": "Restauração local em banco isolado. Não comprova PITR ou alta disponibilidade.",
+  "dump_sha256": "08BAB20831665550004C723045B5D4EF6475BAA3768234C72E817E164B0461B3",
+  "data": {
+    "opportunities": 2089,
+    "versions": 2089,
+    "classifications": 122,
+    "jobs": 2,
+    "source_records": 8927,
+    "data_hash": "0359694b98474219221614dc7c1cf5c4",
+    "classification_hash": "f8f7ef657ca0341e3df1a7deabc9ea6d"
+  },
+  "verified": true
+}

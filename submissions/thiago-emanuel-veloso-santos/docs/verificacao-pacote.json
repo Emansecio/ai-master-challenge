@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-22",
+  "original_tracked_files_unchanged": true,
+  "known_credentials_found": 0,
+  "credential_pattern_matches": 0,
+  "prohibited_artifacts_found": 0,
+  "original_database_counts": {
+    "opportunities": 2089,
+    "opportunity_versions": 2089,
+    "classifications": 122,
+    "jobs": 2,
+    "job_attempts": 2
+  },
+  "code_changes_in_packaging": false,
+  "limitations": "A busca confere credenciais locais conhecidas e padrões de tokens; não representa garantia absoluta sobre qualquer conteúdo sensível. A lista de entrega deve ser atualizada se houver novas edições.",
+  "files": 210,
+  "local_links_checked": 201,
+  "broken_local_links": 0,
+  "git_preserves_audited_bytes": true
+}

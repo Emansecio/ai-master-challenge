@@ -1,0 +1,13 @@
+opportunity_id,sales_agent,product,account,deal_stage,engage_date,age,sales_price,reference_p90,review_age,reference_action
+00400B1S,Lajuana Vencill,GTX Basic,,Prospecting,,,550,105.0,False,identify_account
+01EH41WA,Zane Levy,GTX Pro,,Engaging,2017-03-04,302.0,4821,102.0,True,identify_account
+01XZ9CRY,Zane Levy,GTX Plus Pro,Initech,Engaging,2017-09-18,104.0,5482,103.0,True,review_old_negotiation
+021Z2J9L,Markita Hansen,GTK 500,Rundofase,Engaging,2017-07-23,161.0,26768,104.0,True,review_old_negotiation
+02K37JAK,Jonathan Berthelot,GTX Plus Basic,,Engaging,2017-07-21,163.0,1096,105.0,True,identify_account
+03P9VXWG,Darcel Schlecht,GTX Basic,,Prospecting,,,550,105.0,False,identify_account
+06C1N1F7,Elease Gluck,MG Special,,Engaging,2017-10-05,87.0,55,104.0,False,identify_account
+07GUKIG3,Violet Mclelland,MG Special,,Engaging,2017-12-05,26.0,55,104.0,False,identify_account
+0BQTT5UF,Marty Freudenburg,GTX Pro,Donware,Prospecting,,,4821,102.0,False,qualify_prospect
+0HR4TEU4,Marty Freudenburg,GTX Plus Basic,Plussunin,Prospecting,,,1096,105.0,False,qualify_prospect
+0N11U6L3,Daniell Hammack,GTX Plus Basic,Acme Corporation,Engaging,2017-10-30,62.0,1096,105.0,False,continue_negotiation_review
+1L68AC0E,Wilburn Farren,GTX Pro,Gogozoom,Engaging,2017-10-04,88.0,4821,102.0,False,continue_negotiation_review

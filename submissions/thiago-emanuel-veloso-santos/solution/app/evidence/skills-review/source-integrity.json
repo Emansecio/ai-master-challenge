@@ -1,0 +1,14 @@
+{
+  "compiled_artifacts": [
+    {
+      "file": "app.js",
+      "identical": true
+    },
+    {
+      "file": "recommendation.js",
+      "identical": true
+    }
+  ],
+  "checked_source_files": 27,
+  "changed_source_files": []
+}

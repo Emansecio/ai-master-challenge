@@ -1,0 +1,12 @@
+{
+  "name": "g4-leaddesk-ui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test:recommendations": "npm run build && node --test scripts/recommendation.test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}

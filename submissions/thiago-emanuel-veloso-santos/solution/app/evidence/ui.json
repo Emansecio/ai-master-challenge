@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-22",
+  "url": "http://127.0.0.1:8766",
+  "tool": "Codex in-app browser",
+  "verified": [
+    "Login de administrador e carregamento de 2089 oportunidades",
+    "Classificacao real de VDIU10RV iniciada pelo botao e exibida como validada",
+    "Filtro Maureen Marcano retornou 72 oportunidades com vendedor correspondente",
+    "Busca sem correspondencia exibiu estado vazio",
+    "Limpeza de filtros e navegacao para pagina 2 de 105",
+    "Logout e login de vendedor exibiram 61 oportunidades no escopo desse perfil",
+    "Inspecao visual em desktop e viewport estreito de 390x844"
+  ],
+  "scope": "Verificacao manual assistida no navegador; nao substitui uma suite automatizada completa de UI."
+}

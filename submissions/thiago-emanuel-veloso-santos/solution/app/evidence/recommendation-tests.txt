@@ -1,0 +1,24 @@
+npm notice run test:recommendations
+npm notice run npm run build && node --test scripts/recommendation.test.mjs
+npm warn Unknown env config "global-ignore-file". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> build
+> tsc -p tsconfig.json
+
+✔ a missing account and long duration retain both operational checks (9.7171ms)
+✔ equality to the reference never becomes an above-reference signal (0.1773ms)
+✔ prospecting has no fictitious duration and prompts discovery (0.1604ms)
+✔ being below the reference is not presented as a healthy negotiation (0.2063ms)
+✔ invalid or unknown decisions suppress numerical authority (0.1314ms)
+✔ all reviewed cases have actionable questions, provenance limits and unchanged decisions (0.6289ms)
+✔ fractional references are preserved and non-finite numbers are not graphed (0.1567ms)
+✔ unknown commercial fields follow the supplied state (0.3827ms)
+✔ all 2089 local opportunities produce consistent explanations without model calls (336.5034ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 399.7594

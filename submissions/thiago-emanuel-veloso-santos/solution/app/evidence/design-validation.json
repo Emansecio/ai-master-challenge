@@ -1,0 +1,248 @@
+{
+  "mobile390": {
+    "client": 375,
+    "rows": 20,
+    "scroll": 375,
+    "summaryOpen": false,
+    "tableTop": 641.703125,
+    "width": 390
+  },
+  "dialogOpen": {
+    "bodyLocked": true,
+    "focus": "detail-title",
+    "modal": true,
+    "open": true,
+    "scrollWidth": 359,
+    "width": 359
+  },
+  "keyboard": {
+    "focus": "close-detail",
+    "insideDialog": true
+  },
+  "escape": {
+    "focus": "UP409DSB",
+    "locked": false,
+    "open": false
+  },
+  "teamFilter": {
+    "expanded": "false",
+    "label": "Equipe (1 filtro)",
+    "rows": true,
+    "selected": "Maureen Marcano"
+  },
+  "empty": {
+    "empty": true,
+    "rows": 0
+  },
+  "emptyRecovery": {
+    "agent": "",
+    "focus": "search",
+    "rows": 20,
+    "search": ""
+  },
+  "audit": {
+    "open": true,
+    "text": "Versão atual: 1. Política: 0.2-proposed.Mostrando até 20 registros mais recentes de cada histórico. As datas são dos registros locais ou do recibo importado; não representam contato com o cliente.Versões dos dados (1)Versão 1 · Ganjaflexdataset · 22/09/2026, 04:53:49 (Brasília)Classificações (1)Atual · versão 1Consulta ao vivo · typesafe-ai/jev22/09/2026, 05:09:02 (Brasília)Qualificação: negotiation_reviewableAção: review_old_negotiationCorrespondia à versão e política na gravação.Assinatura da classificação910fe33ffa736ceb5a05221146ddf7982cb7f91f023baa7b56039175956b8499Identificação das fontesAssinatura da política ativa:910fe33ffa736ceb5a05221146ddf7982cb7f91f023baa7b56039175956b8499SHA-256 do dataset:74d535826330b616758ebb6bb393abf701a5126364a72fbe71003cb6a7a87a9c"
+  },
+  "draft": {
+    "saveEnabled": true,
+    "status": "Alteração ainda não salva. Mantida ao navegar nesta sessão.",
+    "value": "Acme Corporation"
+  },
+  "draftRestored": {
+    "saveDisabled": true,
+    "value": "Ganjaflex"
+  },
+  "focusWrap": {
+    "inDialog": true,
+    "tag": "DIALOG",
+    "text": "OportunidadeVoltar à listaRevisar negociaçãoGanjaflexUP409DSB · versão 1MG AdvancedUS$ 3.393 · preço"
+  },
+  "focusWrapBack": {
+    "id": ""
+  },
+  "mobile320": {
+    "buttons": [
+      {
+        "height": 44,
+        "width": 239
+      },
+      {
+        "height": 44,
+        "width": 239
+      }
+    ],
+    "client": 305,
+    "scroll": 305,
+    "table": 271,
+    "width": 320
+  },
+  "pagination": {
+    "focus": "portfolio-title",
+    "label": "2.089 oportunidades · página 2 de 105",
+    "listTop": 16.265625,
+    "rows": 20
+  },
+  "resize": {
+    "bodyLocked": false,
+    "detailParent": "detail-pane",
+    "dialogOpen": false
+  },
+  "method": {
+    "focusedSummary": true,
+    "open": true
+  },
+  "contrast": {
+    "failures": [],
+    "method": "computed opaque backgrounds and text colors; excludes disabled controls; no manual WCAG certification",
+    "pairs": 26
+  },
+  "refreshDisclosures": {
+    "audit": true,
+    "facts": true,
+    "history": true
+  },
+  "responsive": [
+    {
+      "client": 305,
+      "scroll": 305,
+      "summaryOpen": false,
+      "tableClient": 271,
+      "tableScroll": 271,
+      "width": 320
+    },
+    {
+      "client": 375,
+      "scroll": 375,
+      "summaryOpen": false,
+      "tableClient": 341,
+      "tableScroll": 341,
+      "width": 390
+    },
+    {
+      "client": 753,
+      "scroll": 753,
+      "summaryOpen": true,
+      "tableClient": 687,
+      "tableScroll": 687,
+      "width": 768
+    },
+    {
+      "client": 1009,
+      "scroll": 1009,
+      "summaryOpen": true,
+      "tableClient": 943,
+      "tableScroll": 943,
+      "width": 1024
+    },
+    {
+      "client": 1265,
+      "scroll": 1265,
+      "summaryOpen": true,
+      "tableClient": 827,
+      "tableScroll": 827,
+      "width": 1280
+    }
+  ],
+  "login": {
+    "client": 320,
+    "focus": "access-code",
+    "scroll": 320,
+    "visible": true
+  },
+  "missingAccount": {
+    "account": "",
+    "dialog": true,
+    "reason": "Identifique a empresa antes de avaliar o perfil da oportunidade.335 dias em negociação; referência histórica de 104 dias. Idade não significa inatividade.Necessidade, orçamento, intenção e último contato não estão disponíveis nesta base.",
+    "reference": "P90: 104 dias. Referência global: o produto tem apenas 25 negócios encerrados, abaixo do mínimo de 30. É uma referência histórica, não um prazo combinado com o cliente."
+  },
+  "cachedClassification": {
+    "disabled": true,
+    "label": "✓ Coerência com a política conferida"
+  },
+  "desktop": {
+    "client": 1265,
+    "duplicateIds": [],
+    "rowsFullyVisible": 2,
+    "scroll": 1265,
+    "scrollY": 0,
+    "tableTop": 547.46875,
+    "width": 1280
+  },
+  "keyboardTraversal": [
+    {
+      "id": "",
+      "inDialog": true,
+      "tag": "SUMMARY"
+    },
+    {
+      "id": "",
+      "inDialog": true,
+      "tag": "SUMMARY"
+    },
+    {
+      "id": "account-select",
+      "inDialog": true,
+      "tag": "SELECT"
+    },
+    {
+      "id": "",
+      "inDialog": true,
+      "tag": "SUMMARY"
+    },
+    {
+      "id": "close-detail",
+      "inDialog": true,
+      "tag": "BUTTON"
+    },
+    {
+      "id": "",
+      "inDialog": true,
+      "tag": "SUMMARY"
+    },
+    {
+      "id": "",
+      "inDialog": true,
+      "tag": "SUMMARY"
+    },
+    {
+      "id": "account-select",
+      "inDialog": true,
+      "tag": "SELECT"
+    },
+    {
+      "id": "",
+      "inDialog": true,
+      "tag": "SUMMARY"
+    },
+    {
+      "id": "close-detail",
+      "inDialog": true,
+      "tag": "BUTTON"
+    }
+  ],
+  "reverseTab": {
+    "inDialog": true,
+    "summary": "Histórico e rastreabilidade"
+  },
+  "console": [],
+  "baseline": {
+    "width": 1280,
+    "height": 900,
+    "tableTop": 726.1875
+  },
+  "assertions": {
+    "responsive": true,
+    "keyboard": true,
+    "escape": true,
+    "draft": true,
+    "pagination": true,
+    "method": true,
+    "contrast": true,
+    "empty": true,
+    "audit": true,
+    "resize": true,
+    "ids": true,
+    "console": true
+  }
+}
